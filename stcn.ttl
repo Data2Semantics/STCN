@@ -21,7 +21,7 @@ map:database a d2rq:Database;
 # Table auteurs
 map:Auteur a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "auteurs/@@auteurs.ppn|urlify@@";
+	d2rq:uriPattern "auteur/@@auteurs.ppn|urlify@@";
 	d2rq:class vocab:Auteur;
 	d2rq:classDefinitionLabel "Auteur";
 	.
@@ -45,28 +45,28 @@ map:Auteur_publication a d2rq:PropertyBridge;
 
 
 # Table bibliografische_bijzonderheden_pubs
-map:bibliografische_bijzonderheden_pubs a d2rq:ClassMap;
+map:Bibliografische_Bijzonderheid a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
 	d2rq:uriPattern "bibliografische_bijzonderheid/@@bibliografische_bijzonderheden_pubs.content@@";
 	d2rq:class vocab:Bibliografische_Bijzonderheid;
-	d2rq:classDefinitionLabel "bibliografische_bijzonderheden_pubs";
+	d2rq:classDefinitionLabel "Bibliografische Bijzonderheid";
 	.
-map:bibliografische_bijzonderheden_pubs__label a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:bibliografische_bijzonderheden_pubs;
+map:Bibliografische_Bijzonderheid__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Bibliografische_Bijzonderheid;
 	d2rq:property rdfs:label;
 	d2rq:pattern "@@bibliografische_bijzonderheden_pubs.content@@";
 	.
 
 
 # Table drukkersthesaurus
-map:drukkersthesaurus a d2rq:ClassMap;
+map:Drukker a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
 	d2rq:uriPattern "drukker/@@drukkersthesaurus.ppn|urlify@@";
 	d2rq:class vocab:Drukker;
 	d2rq:classDefinitionLabel "Drukker";
 	.
-map:drukkersthesaurus__label a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:drukkersthesaurus;
+map:Drukker__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Drukker;
 	d2rq:property rdfs:label;
 	d2rq:pattern "@@drukkersthesaurus.content@@";
 	.
@@ -75,14 +75,14 @@ map:drukkersthesaurus__label a d2rq:PropertyBridge;
 
 
 # Table engelse_annotatie_pubs
-map:engelse_annotatie_pubs a d2rq:ClassMap;
+map:Engelse_Annotatie a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "engelse_annotatie_pubs/@@engelse_annotatie_pubs.id@@";
-	d2rq:class vocab:engelse_annotatie_pubs;
-	d2rq:classDefinitionLabel "engelse_annotatie_pubs";
+	d2rq:uriPattern "engelse_annotatie/@@engelse_annotatie_pubs.id@@";
+	d2rq:class vocab:Engelse_Annotatie;
+	d2rq:classDefinitionLabel "Engelse Annotatie";
 	.
-map:engelse_annotatie_pubs__label a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:engelse_annotatie_pubs;
+map:Engelse_Annotatie__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Engelse_Annotatie;
 	d2rq:property rdfs:label;
 	d2rq:pattern "@@engelse_annotatie_pubs.content@@";
 	.
@@ -164,14 +164,14 @@ map:Plaats_location_target a d2rq:PropertyBridge;
 
 
 # Table koepeltitel
-map:koepeltitel a d2rq:ClassMap;
+map:Koepeltitel a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
 	d2rq:uriPattern "koepeltitel/@@koepeltitel.ppn|urlify@@";
-	d2rq:class vocab:koepeltitel;
-	d2rq:classDefinitionLabel "koepeltitel";
+	d2rq:class vocab:Koepeltitel;
+	d2rq:classDefinitionLabel "Koepeltitel";
 	.
-map:koepeltitel__label a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:koepeltitel;
+map:Koepeltitel__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Koepeltitel;
 	d2rq:property rdfs:label;
 	d2rq:pattern "@@koepeltitel.content@@";
 	.
@@ -515,7 +515,7 @@ map:Publicatie_drukkersthesaurus a d2rq:PropertyBridge;
 	d2rq:belongsToClassMap map:Publicatie;
 	d2rq:property vocab:drukker;
 	d2rq:propertyDefinitionLabel "drukker";
-	d2rq:refersToClassMap map:drukkersthesaurus ;
+	d2rq:refersToClassMap map:Drukker ;
 	d2rq:join "publications.ppn <= drukkersthesaurus_pubs.pubid";
 	d2rq:join "drukkersthesaurus_pubs.ppn => drukkersthesaurus.ppn"
 	.
@@ -524,7 +524,7 @@ map:Publicatie_koepeltitel a d2rq:PropertyBridge;
 	d2rq:belongsToClassMap map:Publicatie;
 	d2rq:property vocab:koepeltitel;
 	d2rq:propertyDefinitionLabel "koepeltitel";
-	d2rq:refersToClassMap map:koepeltitel ;
+	d2rq:refersToClassMap map:Koepeltitel ;
 	d2rq:join "publications.ppn <= koepeltitel_pubs.pubid";
 	d2rq:join "koepeltitel_pubs.ppn => koepeltitel.ppn"
 	.
@@ -542,7 +542,7 @@ map:Publicatie_selectie a d2rq:PropertyBridge;
 	d2rq:belongsToClassMap map:Publicatie;
 	d2rq:property vocab:selectie;
 	d2rq:propertyDefinitionLabel "selectie";
-	d2rq:refersToClassMap map:selectie_pubs ;
+	d2rq:refersToClassMap map:Selectie ;
 	d2rq:join "publications.ppn <= selectie_pubs.pubid";
 	.
 	
@@ -559,7 +559,7 @@ map:Publicatie_werkaantekening a d2rq:PropertyBridge;
 	d2rq:belongsToClassMap map:Publicatie;
 	d2rq:property vocab:werkaantekening;
 	d2rq:propertyDefinitionLabel "werkaantekening";
-	d2rq:refersToClassMap map:werkaantekening_pubs ;
+	d2rq:refersToClassMap map:Werkaantekening ;
 	d2rq:join "publications.ppn <= werkaantekening_pubs.pubid";
 	.
 	
@@ -567,15 +567,15 @@ map:Publicatie_engelseannotatie a d2rq:PropertyBridge;
 	d2rq:belongsToClassMap map:Publicatie;
 	d2rq:property vocab:engelse_annotatie;
 	d2rq:propertyDefinitionLabel "engelse annotatie";
-	d2rq:refersToClassMap map:engelse_annotatie_pubs ;
+	d2rq:refersToClassMap map:Engelse_Annotatie ;
 	d2rq:join "publications.ppn <= engelse_annotatie_pubs.pubid";
 	.
 	
 map:Publicatie_bibliografische_bijzonderheden a d2rq:PropertyBridge;
 	d2rq:belongsToClassMap map:Publicatie;
-	d2rq:property vocab:bibliografische_bijzonderheden;
-	d2rq:propertyDefinitionLabel "bibliografische_bijzonderheden";
-	d2rq:refersToClassMap map:bibliografische_bijzonderheden_pubs ;
+	d2rq:property vocab:bibliografische_bijzonderheid;
+	d2rq:propertyDefinitionLabel "bibliografische_bijzonderheid";
+	d2rq:refersToClassMap map:Bibliografische_Bijzonderheid ;
 	d2rq:join "publications.ppn <= bibliografische_bijzonderheden_pubs.pubid";
 	.	
 
@@ -644,20 +644,20 @@ map:Jaar__label a d2rq:PropertyBridge;
 	
 	
 # Table selectie_pubs
-map:selectie_pubs a d2rq:ClassMap;
+map:Selectie a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "selectie_pubs/@@selectie_pubs.id@@";
-	d2rq:class vocab:selectie_pubs;
-	d2rq:classDefinitionLabel "selectie_pubs";
+	d2rq:uriPattern "selectie/@@selectie_pubs.id@@";
+	d2rq:class vocab:Selectie;
+	d2rq:classDefinitionLabel "Selectie";
 	.
-map:selectie_pubs__label a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:selectie_pubs;
+map:Selectie__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Selectie;
 	d2rq:property rdfs:label;
 	d2rq:pattern "@@selectie_pubs.content@@";
 	.
 
-map:selectie_pubs_kmc a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:selectie_pubs;
+map:Selectie_kmc a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Selectie;
 	d2rq:property vocab:selectie_pubs_kmc;
 	d2rq:propertyDefinitionLabel "selectie_pubs kmc";
 	d2rq:column "selectie_pubs.kmc";
@@ -689,14 +689,14 @@ map:Vingerafdruk_match a d2rq:PropertyBridge ;
 
 
 # Table werkaantekening_pubs
-map:werkaantekening_pubs a d2rq:ClassMap;
+map:Werkaantekening a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "werkaantekening_pubs/@@werkaantekening_pubs.id@@";
-	d2rq:class vocab:werkaantekening_pubs;
-	d2rq:classDefinitionLabel "werkaantekening_pubs";
+	d2rq:uriPattern "werkaantekening/@@werkaantekening_pubs.id@@";
+	d2rq:class vocab:Werkaantekening;
+	d2rq:classDefinitionLabel "Werkaantekening";
 	.
-map:werkaantekening_pubs__label a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:werkaantekening_pubs;
+map:Werkaantekening__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Werkaantekening;
 	d2rq:property rdfs:label;
 	d2rq:pattern "@@werkaantekening_pubs.content@@";
 	.
