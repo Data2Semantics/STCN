@@ -1,6 +1,6 @@
 @prefix map: <d2r-mappings/stcn.ttl#> .
 @prefix db: <> .
-@prefix vocab: <http://localhost:2020/vocab/resource/> .
+@prefix vocab: <http://stcn.data2semantics.org/vocab/resource/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8,7 +8,26 @@
 @prefix jdbc: <http://d2rq.org/terms/jdbc/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix oa: <http://www.w3.org/ns/openannotation/core/> .
+@prefix d2r: <http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#> .
+@prefix meta: <http://www4.wiwiss.fu-berlin.de/bizer/d2r-server/metadata#> .
 
+
+<> a d2r:Server;
+	rdfs:label "STCN D2R Server";
+	d2r:baseURI <http://stcn.data2semantics.org/>;
+	d2r:port 8080;
+	d2r:vocabularyIncludeInstances true;
+	d2r:sparqlTimeout 300;
+	d2r:pageTimeout 5;
+	
+	meta:datasetTitle "STCN";
+	meta:datasetDescription "RDF Version of the STCN Redactiebladen";
+	meta:datasetSource "STCN Redactiebladen from http://stcn.kb.nl";
+	meta:operatorName "Rinke Hoekstra";
+	meta:operatorHomepage <http://www.data2semantics.org>;
+	.
+	
+	
 map:database a d2rq:Database;
 	d2rq:jdbcDriver "com.mysql.jdbc.Driver";
 	d2rq:jdbcDSN "jdbc:mysql://localhost/STCN";
@@ -17,6 +36,7 @@ map:database a d2rq:Database;
 	jdbc:autoReconnect "true";
 	jdbc:zeroDateTimeBehavior "convertToNull";
 	.
+	
 
 # Table auteurs
 map:Auteur a d2rq:ClassMap;
@@ -595,6 +615,18 @@ map:Publicatie_illustratie a d2rq:PropertyBridge;
 	# d2rq:refersToClassMap map:illustratie_pubs ;
 	d2rq:join "publications.ppn <= illustratie_pubs.pubid";
 	d2rq:uriSqlExpression "SUBSTRING_INDEX(illustratie_pubs.content, '=A ', -1) ";
+	.
+
+# Detect 'titeluitgaven'
+
+map:Publicatie_titeluitgave a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:Publicatie;
+	d2rq:property vocab:titeluitgave_van;
+	d2rq:propertyDefinitionLabel "titeluitgave van" ;
+	d2rq:refersToClassMap map:Publicatie;
+	d2rq:join "publications.kmc2275 => andere_publications.kmc2275";
+	d2rq:alias "publications AS andere_publications";
+	d2rq:condition "publications.ppn <> andere_publications.ppn";
 	.
 
 
