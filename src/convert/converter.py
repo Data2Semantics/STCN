@@ -838,9 +838,9 @@ class Converter(object):
         
         if count != 0 :
             pub_lines.append(self.prev_line)
+            started = True
         
         for line in self.rb:
-#            print count
             count = count + 1
             if line.startswith('SET') and not started :
                 started = True
@@ -860,9 +860,17 @@ class Converter(object):
         print pub_lines
         self.rb_pos = count
         
+        """Make sure that all lines start with a KMC"""
+        checked_pub_lines = pub_lines[:2]
+        for line in pub_lines[2:] :
+            if line[:3].isdigit() :
+                checked_pub_lines.append(line)
+            else :
+                checked_pub_lines[-1] += line
+        
         if len(pub_lines) > 1:
-            self.current = pub_lines
-            return pub_lines
+            self.current = checked_pub_lines
+            return checked_pub_lines
         else :
             raise StopIteration
     
@@ -1071,6 +1079,39 @@ class Converter(object):
             return g    
         else :
             raise Exception('No KMC 2275/Fingerprint found (obligatory)')
+    
+    def get_30XX(self, g, uri):
+        """Authors"""
+        UNITS = ["eerste", "tweede", "derde", "vierde", "vijfde", "zesde", "zevende", "achtste", "negende"]
+        
+        # The 0 or 1 in the third position of KMC 3000/301X or beyond is irrelevant, as the count starts with 0 
+        r = r'30\d(?P<volgorde>\d)\s(?P<auteur>.+?)\n'
+        i = re.finditer(r, self.current_text)
+        
+        first_author = None
+        if i :
+            for m in i:
+                pos_int = int(m.group('volgorde'))
+                author_property_name = UNITS[pos_int] + "_auteur"
+                
+                author_string = m.group('auteur')
+                print author_string
+                
+                ra = r'(?P<voornaam>.+?)(/(?P<tussenvoegsel>.+?))?\@(?P<achternaam>.+?)\!(?P<ppn>\d{9})\!(?P<uitgeschreven>.+?)'
+                rm = re.search(ra,author_string)
+                
+                if rm :
+                    voornaam = rm.group('voornaam')
+                    tussenvoegsel = rm.group('tussenvoegsel')
+                    achternaam = rm.group('achternaam')
+                    ppn = rm.group('ppn')
+                    print voornaam, tussenvoegsel, achternaam, ppn
+                
+                g.add((uri,self.STCNV[author_property_name],Literal(author_string)))
+                
+            return g, first_author
+        else :
+            return g, first_author
                 
     def parse(self):
         g = self.init_graph()
@@ -1085,6 +1126,7 @@ class Converter(object):
         g = self.get_1500(g, uri)
         g = self.get_1700(g, uri)
         g = self.get_2275(g, uri)
+        g, first_author = self.get_30XX(g, uri)
         
         print g.serialize(format='n3')
         
@@ -1105,5 +1147,10 @@ if __name__ == '__main__':
     
     c = Converter(redactiebladen)
     
+    c.next()
+    c.next()
+    c.next()
+    c.next()
+    c.next()
     c.next()
     c.parse()
