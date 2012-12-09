@@ -1055,6 +1055,22 @@ class Converter(object):
             return g
         else :
             raise Exception("No KMC 1700/Country found (obligatory)")
+    
+    
+    def get_2275(self, g, uri):
+        """Fingerprint"""
+        
+        r = r'2275\s(?P<vingerafdruk>.+?)\n'
+        m = re.search(r, self.current_text)
+        
+        if m :
+            vingerafdruk = m.group('vingerafdruk')
+            
+            g.add((uri,self.STCNV['vingerafruk'],Literal(vingerafdruk)))
+            
+            return g    
+        else :
+            raise Exception('No KMC 2275/Fingerprint found (obligatory)')
                 
     def parse(self):
         g = self.init_graph()
@@ -1068,6 +1084,7 @@ class Converter(object):
         g = self.get_1200(g, uri)
         g = self.get_1500(g, uri)
         g = self.get_1700(g, uri)
+        g = self.get_2275(g, uri)
         
         print g.serialize(format='n3')
         
