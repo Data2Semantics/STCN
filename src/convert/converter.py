@@ -554,6 +554,264 @@ class Converter(object):
             'zwe': 'Zweeds',
             'gsw': 'Zwitsers-Duits'
             }
+    
+    LANDEN = {
+            'af': 'Afganistan',
+            'al': 'Albanië',
+            'dz': 'Algerije',
+            'ad': 'Andorra',
+            'ao': 'Angola',
+            'aq': 'Antarctica',
+            'bq': 'Antarctica (Brits)',
+            'fq': 'Antarctica (Frans)',
+            'ag': 'Antigua en Baruda',
+            'ar': 'Argentinië',
+            'am': 'Armenië',
+            'aw': 'Aruba',
+            'ac': 'Ashmore en Cartier Eilanden',
+            'au': 'Australië',
+            'az': 'Azerbeidjan',
+            'bs': 'Bahama Eilanden',
+            'bh': 'Bahrein',
+            'bd': 'Bangladesh',
+            'bb': 'Barbados',
+            'be': 'België',
+            'bz': 'Belize',
+            'bj': 'Benin',
+            'bm': 'Bermuda',
+            'bt': 'Bhoetan',
+            'bu': 'Birma',
+            'bi': 'Boeroendi',
+            'bo': 'Bolivia',
+            'ba': 'Bosnië-Herzogowina',
+            'bw': 'Botswana',
+            'bv': 'Bouvet Eilanden',
+            'br': 'Brazilië',
+            'bn': 'Brunei',
+            'bg': 'Bulgarije',
+            'hv': 'Burkina Fasso',
+            'ca': 'Canada',
+            'ct': 'Canton en Enderbury Eilanden',
+            'ky': 'Cayman Eilanden',
+            'cf': 'Centraal Afrikaanse Republiek',
+            'ln': 'Central en Southern Line Eilanden',
+            'cl': 'Chili',
+            'cn': 'Chincx     Christmas Eiland',
+            'cc': 'Cocos (Keeling) Eilanden',
+            'co': 'Colombia',
+            'km': 'Comoren',
+            'cg': 'Congo (Brazzaville)',
+            'ck': 'Cook Eilanden',
+            'cr': 'Costa Rica',
+            'cu': 'Cuba',
+            'cy': 'Cyprus',
+            'dk': 'Denemarken',
+            'dj': 'Djibouti',
+            'dm': 'Dominica',
+            'do': 'Dominicaanse Republiek',
+            'nq': 'Dronning Maud Land',
+            'de': 'Duitslandd     Duitslanec     Ecuador',
+            'eg': 'Egypte en Verenigde Arabische Republiek (1958-1961)',
+            'sv': 'El Salvador',
+            'gq': 'Equatorial Guinea',
+            'er': 'Eritrea',
+            'ee': 'Estland',
+            'et': 'Ethiopië',
+            'fo': 'Faeröer',
+            'fk': 'Falkland Eilanden',
+            'fj': 'Fiji Eilanden',
+            'ph': 'Filippijnen',
+            'fi': 'Finland',
+            'fr': 'Frankrijk',
+            'ga': 'Gabon',
+            'gm': 'Gambia',
+            'go': 'Georgië',
+            'gh': 'Ghana',
+            'gi': 'Gibraltar',
+            'ge': 'Gilbert en Ellice Eilanden tot 1978 - na 1978 gebruik Kiribati of Tuvalu',
+            'gd': 'Grenada',
+            'gr': 'Griekenland',
+            'gl': 'Groenland',
+            'gp': 'Guadeloupe',
+            'gu': 'Guam',
+            'gt': 'Guatemala',
+            'gf': 'Guyana (Frans)',
+            'gn': 'Guinee',
+            'gw': 'Guinee-Bissau',
+            'gy': 'Guyana',
+            'ht': 'Haïti',
+            'hm': 'Heard en McDonald Eilanden',
+            'hn': 'Honduras',
+            'hk': 'Hong Kong',
+            'hu': 'Hongarije',
+            'ie': 'Ierland',
+            'is': 'IJsland',
+            'in': 'India',
+            'io': 'Indische Oceaangebied (Brits)',
+            'id': 'Indonesie',
+            'iq': 'Irak',
+            'nt': 'Irak-Saoedi-Arabië Neutrale Zone',
+            'ir': 'Iran',
+            'il': 'Israël',
+            'it': 'Italië',
+            'ci': 'Ivoorkust',
+            'jm': 'Jamaica',
+            'jp': 'Japan',
+            'ye': 'Jemeyd     Jemeyu     Joegoslavië tot oktober 1992. Na oktober 1992 tot maart 2006 code yu gebruiken voor Servië en Montenegro',
+            'jt': 'Johnston Eiland',
+            'jo': 'Jordanië',
+            'cv': 'Kaapverdische Eilanden',
+            'cm': 'Kameroen',
+            'kh': 'Kampuchea',
+            'qa': 'Katar',
+            'kz': 'Kazachstan',
+            'ke': 'Kenia',
+            'ki': 'Kiribati',
+            'kw': 'Koeweit',
+            'kr': 'Korekp     Korehr     Kroatië',
+            'kg': 'Kyrgyzstan',
+            'la': 'Laos',
+            'ls': 'Lesotho',
+            'lv': 'Letland',
+            'lb': 'Libanon',
+            'lr': 'Liberia',
+            'ly': 'Libië',
+            'li': 'Liechtenstein',
+            'lt': 'Litouwen',
+            'lu': 'Luxemburg',
+            'vi': 'Maagden Eilanden (Amerikaans)',
+            'vg': 'Maagden Eilanden (Brits)',
+            'mo': 'Macao',
+            'mk': 'Macedonië',
+            'mg': 'Madagascar',
+            'mw': 'Malawi',
+            'mv': 'Maldiven',
+            'my': 'Maleisië',
+            'ml': 'Mali',
+            'mt': 'Malta',
+            'ma': 'Marokko',
+            'mh': 'Marshall Eilanden',
+            'mq': 'Martinique',
+            'mr': 'Mauretanië',
+            'mu': 'Mauritius',
+            'me': 'Mayotte',
+            'mx': 'Mexico',
+            'fm': 'Micronesië',
+            'mi': 'Midway Eilanden',
+            'md': 'Moldavië',
+            'mc': 'Monaco',
+            'mn': 'Mongolië',
+            'mb': 'Montenegro (vanaf maart 2006); zie ook: Servië en Montenegro',
+            'ms': 'Montserrat',
+            'mz': 'Mozambique',
+            'na': 'Namibië',
+            'nr': 'Nauru',
+            'nl': 'Nederland',
+            'an': 'Nederlandse Antillen',
+            'np': 'Nepal',
+            'ni': 'Nicaragua',
+            'nc': 'Nieuw-Caledonië',
+            'nz': 'Nieuw-Zeeland',
+            'ne': 'Niger',
+            'ng': 'Nigeria',
+            'nu': 'Niue',
+            'mp': 'Noordelijke Mariana Eilanden',
+            'no': 'Noorwegen',
+            'nf': 'Norfolk',
+            'ug': 'Oeganda',
+            'ua': 'Oekraïne',
+            'uz': 'Oezbekistan',
+            'om': 'Oman',
+            'xx': 'Onbekend',
+            'at': 'Oostenrijk',
+            'pu': 'Pacific Eilanden (Amerikaans)',
+            'pc': 'Pacific Eilanden (Trust Territory)',
+            'pk': 'Pakistan',
+            'pw': 'Palau Eilanden',
+            'pa': 'Panama',
+            'pz': 'Panama-kanaalzone',
+            'pg': 'Papoea-Nieuw-Guinea',
+            'py': 'Paraguay',
+            'pe': 'Peru',
+            'pn': 'Pitcairn Eiland',
+            'pl': 'Polen',
+            'pf': 'Polynesië (Frans)',
+            'pt': 'Portugal',
+            'pr': 'Puerto Rico',
+            'qa': 'Quatar',
+            're': 'Réunion',
+            'rh': 'Rhodesië tot 1979 - na 1979 gebruik Zimbabwe',
+            'ro': 'Roemenië',
+            'ru': 'Russische Federatie',
+            'rw': 'Rwanda',
+            'sh': 'St. Helena',
+            'kn': 'St. Kitts-Neville-Anguilla',
+            'lc': 'St. Lucia',
+            'pm': 'St. Pierre en Miguelon',
+            'vc': 'St. Vincent',
+            'as': 'Samoa (Amerikaans)',
+            'ws': 'Samoa (West)',
+            'sm': 'San Marino',
+            'st': 'Sao Tome en Principe',
+            'sa': 'Saoedi-Arabië',
+            'sn': 'Senegal',
+            'sq': 'Servië; vanaf maart 2006',
+            'yu': 'Servië en Montenegro; periode oktober 1992 tot maart 2006',
+            'sc': 'Seychellen',
+            'sl': 'Sierra Leone',
+            'sg': 'Singapore',
+            'sk': 'Slovakije (na 1-1-1993)',
+            'si': 'Slovenië',
+            'sd': 'Soedan',
+            'sb': 'Solomon Eilanden',
+            'so': 'Somalië',
+            'es': 'Spanje',
+            'sj': 'Spitsbergen en Jan Mayen',
+            'lk': 'Sri Lanka',
+            'sr': 'Suriname',
+            'sz': 'Swaziland',
+            'sy': 'Syrië',
+            'tj': 'Tadzjikistan',
+            'tw': 'Taiwan',
+            'tz': 'Tanzania',
+            'th': 'Thailand',
+            'tp': 'Timor (Oost- of Portugees) Tot 20 mei 2002 gebruik Indonesië',
+            'tm': 'Toerkmenistan',
+            'tg': 'Togo',
+            'tk': 'Tokelan Eilanden',
+            'to': 'Tonga',
+            'tt': 'Trinidad en Tobago',
+            'td': 'Tsjaad',
+            'cz': 'Tsjechië (na 1-1-1993)',
+            'cs': 'Tsjechoslowakije (1918 t/m 31-12-1992)',
+            'tn': 'Tunesië',
+            'tr': 'Turkije',
+            'tc': 'Turks en Caicos Eilanden',
+            'tm': 'Turkmenistan',
+            'tv': 'Tuvalu',
+            'ug': 'Uganda',
+            'uy': 'Uruguay',
+            'su': 'USSR',
+            'vu': 'Vanuatu',
+            'va': 'Vaticaan',
+            've': 'Venezuela',
+            'gb': 'Verenigd Koninkrijk',
+            'ae': 'Verenigde Arabische Emiraten',
+            'us': 'Verenigde Staten',
+            'vn': 'Vietnam na 1978',
+            'wk': 'Wake',
+            'wf': 'Wallis en Futuna Eilanden',
+            'de': 'West-Berlijn (1948-1990)',
+            'eh': 'Westelijke Sahara',
+            'by': 'Witrusland',
+            'xx': 'Onbekend',
+            'zr': 'Zaïre',
+            'zm': 'Zambia',
+            'zw': 'Zimbabwe',
+            'za': 'Zuid Afrika',
+            'se': 'Zweden',
+            'ch': 'Zwitserland'
+            }
 
     def __init__(self, redactiebladen):
         '''
@@ -669,13 +927,20 @@ class Converter(object):
             status = m.group('status')
            
             g.add((uri,self.STCNV['status'],self.STCN['status/{}'.format(status)]))
+            
+            g.add((self.STCN['status/{}'.format(status)],RDF.type,self.SKOS['Concept']))    
+            g.add((self.STCN['status/{}'.format(status)],RDF.type,self.STCNV['Status']))    
+            g.add((self.STCN['status/{}'.format(status)],self.SKOS['inScheme'],self.STCN['STCN']))
            
             if status == 'Aav':
                 g.add((uri,RDF.type,self.STCNV['Monografie']))
+                g.add((self.STCN['status/{}'.format(status)],RDFS.label,Literal('Monografie','nl')))
             elif status == 'Abv':
-                g.add((uri,RDF.type,self.STCNV['Meerdelig_Werk']))
+                g.add((uri,RDF.type,self.STCNV['MeerdeligWerk']))
+                g.add((self.STCN['status/{}'.format(status)],RDFS.label,Literal('Meerdelig werk','nl')))
             elif status == 'Acv':
                 g.add((uri,RDF.type,self.STCNV['Tijdschrift']))
+                g.add((self.STCN['status/{}'.format(status)],RDFS.label,Literal('Tijdschrift','nl')))
         
             return g
         else :
@@ -690,7 +955,15 @@ class Converter(object):
         if m:
             jaar = m.group('jaar')
             
-            g.add((uri,self.STCNV['jaar'],self.STCN['jaar/{}'.format(jaar)]))
+            if jaar.endswith('XX') :
+                g.add((uri,self.STCNV['eeuw'],self.STCN['eeuw/{}'.format(jaar)]))
+            elif jaar.endswith('X') :
+                g.add((uri,self.STCNV['eeuw'],self.STCN['eeuw/{}XX'.format(jaar[:2])]))
+                g.add((uri,self.STCNV['decennium'],self.STCN['decennium/{}'.format(jaar)]))
+            else:
+                g.add((uri,self.STCNV['eeuw'],self.STCN['eeuw/{}XX'.format(jaar[:2])]))
+                g.add((uri,self.STCNV['decennium'],self.STCN['decennium/{}X'.format(jaar[:3])]))
+                g.add((uri,self.STCNV['jaar'],self.STCN['jaar/{}'.format(jaar)]))
             
             return g
         else :
@@ -708,8 +981,12 @@ class Converter(object):
             for k in kenmerken:
                 label = self.TYPOGRAFISCHE_KENMERKEN[k]
                 
-                g.add((uri,self.STCNV['typografisch_kenmerk'],self.STCNV[k]))
-                g.add((self.STCNV[k],RDFS.label,Literal(label,'nl')))
+                g.add((uri,self.STCNV['typografisch_kenmerk'],self.STCN['kenmerk/{}'.format(k)]))
+                
+                g.add((self.STCN['kenmerk/{}'.format(k)],RDF.type,self.SKOS['Concept']))    
+                g.add((self.STCN['kenmerk/{}'.format(k)],RDF.type,self.STCNV['TypografischKenmerk']))    
+                g.add((self.STCN['kenmerk/{}'.format(k)],self.SKOS['inScheme'],self.STCN['STCN']))
+                g.add((self.STCN['kenmerk/{}'.format(k)],RDFS.label,Literal(label,'nl')))
             
             return g
         else :
@@ -733,19 +1010,52 @@ class Converter(object):
                     taal = mt.group('taal')
                     
                     if soort == '1':
-                        g.add((uri,self.STCNV['taal'],self.STCNV[taal]))
+                        g.add((uri,self.STCNV['taal'],self.STCN['taal/{}'.format(taal)]))
                     elif soort == '2':
-                        g.add((uri,self.STCNV['tussentaal'],self.STCNV[taal]))
+                        g.add((uri,self.STCNV['tussentaal'],self.STCN['taal/{}'.format(taal)]))
                     elif soort == '3':
-                        g.add((uri,self.STCNV['oorspronkelijke_taal'],self.STCNV[taal]))
+                        g.add((uri,self.STCNV['oorspronkelijke_taal'],self.STCN['taal/{}'.format(taal)]))
                         
-                    g.add((self.STCNV[taal],RDFS.label,Literal(self.TALEN[taal],'nl')))
+                    g.add((self.STCN['taal/{}'.format(taal)],RDF.type,self.SKOS['Concept']))    
+                    g.add((self.STCN['taal/{}'.format(taal)],RDF.type,self.STCNV['Taal']))    
+                    g.add((self.STCN['taal/{}'.format(taal)],self.SKOS['inScheme'],self.STCN['STCN']))
+                    g.add((self.STCN['taal/{}'.format(taal)],RDFS.label,Literal(self.TALEN[taal],'nl')))
             
             return g
         else :
             raise Exception("No KMC 1500/Language found (obligatory)")
             
+    def get_1700(self, g, uri):
+        """Country code"""
         
+        r = r'1700\s(?P<landen>.+?)\n'
+        m = re.search(r, self.current_text)
+        
+        if m :
+            landen = re.split('/',m.group('landen'))
+            
+            for l in landen:
+                rl = r'(?P<soort>\d)(?P<land>\w{2})'
+                ml = re.search(rl, l)
+                
+                if ml:
+                    soort = ml.group('soort')
+                    land = ml.group('land')
+                    
+                    if soort == '1':
+                        g.add((uri,self.STCNV['land'],self.STCN['land/{}'.format(land)]))
+                    elif soort == '2':
+                        g.add((uri,self.STCNV['gecorrigeerd_land'],self.STCN['land/{}'.format(land)]))
+
+                    g.add((self.STCN['land/{}'.format(land)],RDF.type,self.SKOS['Concept']))    
+                    g.add((self.STCN['land/{}'.format(land)],RDF.type,self.STCNV['Land']))    
+                    g.add((self.STCN['land/{}'.format(land)],self.SKOS['inScheme'],self.STCN['STCN']))
+                    g.add((self.STCN['land/{}'.format(land)],RDFS.label,Literal(self.LANDEN[land],'nl')))
+            
+            return g
+        else :
+            raise Exception("No KMC 1700/Country found (obligatory)")
+                
     def parse(self):
         g = self.init_graph()
         
@@ -757,6 +1067,7 @@ class Converter(object):
         g = self.get_1100(g, uri)
         g = self.get_1200(g, uri)
         g = self.get_1500(g, uri)
+        g = self.get_1700(g, uri)
         
         print g.serialize(format='n3')
         
