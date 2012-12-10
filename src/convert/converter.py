@@ -886,7 +886,7 @@ class Converter(object):
         return g
     
     def get_ppn(self, g):
-        r = r'SET\:\s(?P<set>\w+\s.+?)\sTTL\:\s(?P<ttl>\d+)\sPPN\:\s(?P<ppn>\d{9})\sPAG\:\s(?P<pag>\d+)\s\.\n'
+        r = r'SET\:\s(?P<set>\w+\s.+?)\s+TTL\:\s(?P<ttl>\d+)\s+PPN\:\s(?P<ppn>(\d|\w){9})\s+PAG\:\s(?P<pag>\d+)\s\.\n'
         m = re.search(r,self.current_text)
         print self.current_text
         
@@ -940,6 +940,8 @@ class Converter(object):
             g.add((self.STCN['status/{}'.format(status)],RDF.type,self.STCNV['Status']))    
             g.add((self.STCN['status/{}'.format(status)],self.SKOS['inScheme'],self.STCN['STCN']))
            
+           
+            # TODO: Use a nice dictionary-based mapping instead of this if-then-else statement
             if status == 'Aav':
                 g.add((uri,RDF.type,self.STCNV['Monografie']))
                 g.add((self.STCN['status/{}'.format(status)],RDFS.label,Literal('Monografie','nl')))
@@ -981,24 +983,26 @@ class Converter(object):
         """Typographical characteristics"""
         
         r = r'1200\s(?P<typokenmerk>.+?)\n'
-        m = re.search(r, self.current_text)
+        kenmerken = re.findall(r, self.current_text)
         
-        if m:
-            kenmerken = re.split('|',m.group('typokenmerk'))
-            
-            for k in kenmerken:
-                label = self.TYPOGRAFISCHE_KENMERKEN[k]
-                
-                g.add((uri,self.STCNV['typografisch_kenmerk'],self.STCN['kenmerk/{}'.format(k)]))
-                
-                g.add((self.STCN['kenmerk/{}'.format(k)],RDF.type,self.SKOS['Concept']))    
-                g.add((self.STCN['kenmerk/{}'.format(k)],RDF.type,self.STCNV['TypografischKenmerk']))    
-                g.add((self.STCN['kenmerk/{}'.format(k)],self.SKOS['inScheme'],self.STCN['STCN']))
-                g.add((self.STCN['kenmerk/{}'.format(k)],RDFS.label,Literal(label,'nl')))
-            
-            return g
-        else :
+        if len(kenmerken) < 1 :
             raise Exception("No KMC 1200/Typographical characteristics found (obligatory)")
+        
+        for (k) in kenmerken:
+            kenmerken_line = re.split('|',k)
+            
+            for kenmerk in kenmerken_line:
+                label = self.TYPOGRAFISCHE_KENMERKEN[kenmerk]
+                
+                g.add((uri,self.STCNV['typografisch_kenmerk'],self.STCN['kenmerk/{}'.format(kenmerk)]))
+                
+                g.add((self.STCN['kenmerk/{}'.format(kenmerk)],RDF.type,self.SKOS['Concept']))    
+                g.add((self.STCN['kenmerk/{}'.format(kenmerk)],RDF.type,self.STCNV['TypografischKenmerk']))    
+                g.add((self.STCN['kenmerk/{}'.format(kenmerk)],self.SKOS['inScheme'],self.STCN['STCN']))
+                g.add((self.STCN['kenmerk/{}'.format(kenmerk)],RDFS.label,Literal(label,'nl')))
+            
+        return g
+            
         
     def get_1500(self, g, uri):
         """Language code"""
@@ -1074,6 +1078,8 @@ class Converter(object):
         if m :
             vingerafdruk = m.group('vingerafdruk')
             
+            # TODO: Do some additional parsing on the fingerprint
+            
             g.add((uri,self.STCNV['vingerafruk'],Literal(vingerafdruk)))
             
             return g    
@@ -1094,25 +1100,157 @@ class Converter(object):
                 pos_int = int(m.group('volgorde'))
                 author_property_name = UNITS[pos_int] + "_auteur"
                 
-                author_string = m.group('auteur')
-                print author_string
+                author_string = m.group('auteur').decode('utf-8')
                 
-                ra = r'(?P<voornaam>.+?)(/(?P<tussenvoegsel>.+?))?\@(?P<achternaam>.+?)\!(?P<ppn>\d{9})\!(?P<uitgeschreven>.+?)'
-                rm = re.search(ra,author_string)
+                ## Multiple options
+                #
+                #  Jan/de@Wit (Jansz.) -> voornaam/tussenvoegsel@achternaam (toevoeging)
+                #  @Franciscus"%van Assisi - > @voornaam"%achternaam
+                #  @Louis"%XIV = 14 (King of France) -> @voornaam%"volgnummer_latijn = volgnummer_arabisch (toevoeging)
                 
-                if rm :
-                    voornaam = rm.group('voornaam')
-                    tussenvoegsel = rm.group('tussenvoegsel')
-                    achternaam = rm.group('achternaam')
-                    ppn = rm.group('ppn')
-                    print voornaam, tussenvoegsel, achternaam, ppn
+                re_ingang = r'^(\#(?P<titel>.+?)\#)?\@(?P<achternaam>.+?)(\"\%(?P<voornaam>.+?))?(\((?P<toevoeging>.+?)\))?\!(?P<ppn>(\d|\w){9})\!(?P<thesaurus>.+)'
+                re_koning = r'^(\#(?P<titel>.+?)\#)?\@(?P<naam>.+)\"\%(?P<volgnummer>\w+)\s\=\s\d+\s\((?P<beschrijving>.+?)\).*\!(?P<ppn>(\d|\w){9})\!(?P<thesaurus>.+)'
+                re_normaal = r'^(\#(?P<titel>.+?)\#)?(?P<voornaam>(?!/).+?)?(/(?P<tussenvoegsel>.+?))?\@(?P<achternaam>.+?)(\s\((?P<toevoeging>.+?)\))?\!(?P<ppn>(\d|\w){9})\!(?P<thesaurus>.+)'
                 
-                g.add((uri,self.STCNV[author_property_name],Literal(author_string)))
+                
+                re_auteursthesaurus = r'(?P<naam>(\w|\s)+)(\((?P<geboortejaar>.+?)(\-(?P<sterftejaar>.+?))?\))?'
+                
+                
+                
+                nm = re.search(re_normaal,author_string,re.UNICODE)
+                im = re.search(re_ingang, author_string,re.UNICODE)
+                km = re.search(re_koning, author_string,re.UNICODE)
+                
+                
+                if im :
+                    print "Ingang"
+                    titel = im.group('titel')
+                    voornaam = im.group('voornaam')
+                    achternaam = im.group('achternaam')
+                    toevoeging = im.group('toevoeging')
+                    thesaurus = im.group('thesaurus')
+                    ppn = im.group('ppn')
+                    
+                    author_uri = self.STCN['auteur/{}'.format(ppn)]
+
+                    g.add((uri,self.STCNV[author_property_name],author_uri))
+                    g.add((uri,self.STCNV['auteur'],author_uri))
+                    
+                    g.add((author_uri, RDF.type, self.STCNV['Auteur']))
+                    
+                    if voornaam :
+                        g.add((author_uri, self.FOAF['givenName'], Literal(voornaam, 'nl')))
+                    
+                    if titel:
+                        g.add((author_uri, self.STCNV['titel'], Literal(titel, 'nl')))
+
+                    if achternaam :
+                        g.add((author_uri, self.FOAF['familyName'], Literal(achternaam, 'nl')))
+                        g.add((author_uri, self.FOAF['name'], Literal('{} {}'.format(voornaam,achternaam),'nl')))
+                    else :
+                        g.add((author_uri, self.FOAF['name'], Literal(voornaam, 'nl')))
+                        
+                    if toevoeging:
+                        g.add((author_uri, self.SKOS['note'], Literal(toevoeging, 'nl')))
+                    
+                    
+                elif km :
+                    print "Koning"
+                    titel = km.group('titel')
+                    naam = km.group('naam')
+                    volgnummer = km.group('volgnummer')
+                    beschrijving = km.group('beschrijving')
+                    thesaurus = km.group('thesaurus')
+                    ppn = km.group('ppn')
+                    
+                    author_uri = self.STCN['auteur/{}'.format(ppn)]
+
+                    g.add((uri,self.STCNV[author_property_name],author_uri))
+                    g.add((uri,self.STCNV['auteur'],author_uri))
+                    
+                    g.add((author_uri, RDF.type, self.STCNV['Auteur']))
+                elif nm :
+                    print "Normaal"
+                    titel = nm.group('titel')
+                    voornaam = nm.group('voornaam')
+                    tussenvoegsel = nm.group('tussenvoegsel')
+                    achternaam = nm.group('achternaam')
+                    toevoeging = nm.group('toevoeging')
+                    thesaurus = nm.group('thesaurus')
+                    ppn = nm.group('ppn')
+                    
+                    author_uri = self.STCN['auteur/{}'.format(ppn)]
+
+                    g.add((uri,self.STCNV[author_property_name],author_uri))
+                    g.add((uri,self.STCNV['auteur'],author_uri))
+                    
+                    g.add((author_uri, RDF.type, self.STCNV['Auteur']))
+                    
+                    if voornaam:
+                        g.add((author_uri, self.FOAF['givenName'], Literal(voornaam,'nl')))
+                    else :
+                        voornaam = ''
+                    
+                    if achternaam:
+                        g.add((author_uri, self.FOAF['familyName'], Literal(achternaam,'nl')))
+                    else :
+                        achternaam = ''
+                    
+                    if titel:
+                        g.add((author_uri, self.STCNV['titel'], Literal(titel, 'nl')))
+                    
+                    if tussenvoegsel:
+                        g.add((author_uri, self.STCNV['articularName'], Literal(tussenvoegsel,'nl')))
+                        if tussenvoegsel.endswith('\'') :
+                            g.add((author_uri, self.FOAF['name'], Literal('{} {}{}'.format(voornaam,tussenvoegsel,achternaam).strip(),'nl')))
+                        else :
+                            g.add((author_uri, self.FOAF['name'], Literal('{} {} {}'.format(voornaam,tussenvoegsel,achternaam).strip(),'nl')))
+                    else :
+                        g.add((author_uri, self.FOAF['name'], Literal('{} {}'.format(voornaam,achternaam).strip(),'nl')))
+                        
+                    if toevoeging:
+                        g.add((author_uri, self.SKOS['note'], Literal(toevoeging, 'nl')))
+
+                else :
+                    print "Could not match any author regex to: \"{}\"".format(author_string)
+                    continue
+                
+                atm = re.search(re_auteursthesaurus, thesaurus,re.UNICODE)
+                
+                if atm:
+                    naam = atm.group('naam').strip()
+                    geboortejaar = atm.group('geboortejaar')
+                    sterftejaar = atm.group('sterftejaar')
+                    
+                    g.add((author_uri,self.STCNV['naam'],Literal(naam,'nl'))) 
+                    
+                    if geboortejaar:
+                        if geboortejaar.startswith('c.') or geboortejaar.startswith('ca'):
+                            g.add((author_uri,self.STCNV['geboortejaar_circa'],Literal(re.sub('(c\.|ca|ca\.)','',geboortejaar),'nl')))        
+                        elif geboortejaar.endswith('fl.'):
+                            g.add((author_uri,self.STCNV['eerste_jaar'],Literal(geboortejaar[:-4],'nl')))   
+                        else :
+                            g.add((author_uri,self.STCNV['geboortejaar'],Literal(geboortejaar,'nl')))   
+                    
+                    if sterftejaar:
+                        if sterftejaar.startswith('c.') or sterftejaar.startswith('ca'):
+                            g.add((author_uri,self.STCNV['sterftejaar_circa'],Literal(re.sub('(c\.|ca|ca\.)','',sterftejaar),'nl')))        
+                        elif sterftejaar.endswith('fl.'):
+                            g.add((author_uri,self.STCNV['laatste_jaar'],Literal(sterftejaar[:-4],'nl')))     
+                        else :
+                            g.add((author_uri,self.STCNV['sterftejaar'],Literal(sterftejaar,'nl')))           
+                
+                if pos_int == 0:
+                    first_author = author_uri
                 
             return g, first_author
         else :
             return g, first_author
-                
+      
+    def toQName(self, name):
+        return name.replace(' ','_')
+    
+              
     def parse(self):
         g = self.init_graph()
         
@@ -1147,10 +1285,14 @@ if __name__ == '__main__':
     
     c = Converter(redactiebladen)
     
-    c.next()
-    c.next()
-    c.next()
-    c.next()
-    c.next()
+    
     c.next()
     c.parse()
+    c.next()
+    c.parse()
+#    c.next()
+#    c.next()
+#    c.next()
+#    c.next()
+#    c.next()
+#    c.parse()
