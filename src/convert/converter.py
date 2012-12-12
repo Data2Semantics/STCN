@@ -1123,6 +1123,7 @@ class Converter(object):
                 
                 
                 if im :
+                    ## TODO: 
                     print "Ingang"
                     titel = im.group('titel')
                     voornaam = im.group('voornaam')
@@ -1146,7 +1147,8 @@ class Converter(object):
 
                     if achternaam :
                         g.add((author_uri, self.FOAF['familyName'], Literal(achternaam, 'nl')))
-                        g.add((author_uri, self.FOAF['name'], Literal('{} {}'.format(voornaam,achternaam),'nl')))
+                        if voornaam :
+                            g.add((author_uri, self.FOAF['name'], Literal('{} {}'.format(voornaam,achternaam),'nl')))
                     else :
                         g.add((author_uri, self.FOAF['name'], Literal(voornaam, 'nl')))
                         
@@ -1155,6 +1157,7 @@ class Converter(object):
                     
                     
                 elif km :
+                    ## TODO: generate all RDF for the koning-variant
                     print "Koning"
                     titel = km.group('titel')
                     naam = km.group('naam')
