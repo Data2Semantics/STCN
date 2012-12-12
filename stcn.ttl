@@ -41,7 +41,7 @@ map:database a d2rq:Database;
 # Table auteurs
 map:Auteur a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "auteur/@@auteurs.ppn|urlify@@";
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/auteur/@@auteurs.ppn|urlify@@";
 	d2rq:class vocab:Auteur;
 	d2rq:classDefinitionLabel "Auteur";
 	.
@@ -67,7 +67,7 @@ map:Auteur_publication a d2rq:PropertyBridge;
 # Table bibliografische_bijzonderheden_pubs
 map:Bibliografische_Bijzonderheid a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "bibliografische_bijzonderheid/@@bibliografische_bijzonderheden_pubs.content@@";
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/bibliografische_bijzonderheid/@@bibliografische_bijzonderheden_pubs.content@@";
 	d2rq:class vocab:Bibliografische_Bijzonderheid;
 	d2rq:classDefinitionLabel "Bibliografische Bijzonderheid";
 	.
@@ -81,7 +81,7 @@ map:Bibliografische_Bijzonderheid__label a d2rq:PropertyBridge;
 # Table drukkersthesaurus
 map:Drukker a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "drukker/@@drukkersthesaurus.ppn|urlify@@";
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/drukker/@@drukkersthesaurus.ppn|urlify@@";
 	d2rq:class vocab:Drukker;
 	d2rq:classDefinitionLabel "Drukker";
 	.
@@ -97,7 +97,7 @@ map:Drukker__label a d2rq:PropertyBridge;
 # Table engelse_annotatie_pubs
 map:Engelse_Annotatie a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "engelse_annotatie/@@engelse_annotatie_pubs.id@@";
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/engelse_annotatie/@@engelse_annotatie_pubs.id@@";
 	d2rq:class vocab:Engelse_Annotatie;
 	d2rq:classDefinitionLabel "Engelse Annotatie";
 	.
@@ -111,7 +111,7 @@ map:Engelse_Annotatie__label a d2rq:PropertyBridge;
 # Table extra_zoeksleutel_pubs
 map:Zoeksleutel a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "zoeksleutel/@@extra_zoeksleutel_pubs.id@@";
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/zoeksleutel/@@extra_zoeksleutel_pubs.id@@";
 	d2rq:class vocab:Zoeksleutel;
 	d2rq:classDefinitionLabel "Zoeksleutel";
 	.
@@ -131,7 +131,7 @@ map:Zoeksleutel_kmc a d2rq:PropertyBridge;
 # Table geografische_thesaurus
 map:Plaats a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "plaats/@@geografische_thesaurus.content|urlify@@";
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/plaats/@@geografische_thesaurus.content|urlify@@";
 	d2rq:class vocab:Plaats;
 	d2rq:classDefinitionLabel "Plaats";
 	.
@@ -145,7 +145,7 @@ map:Plaats__label a d2rq:PropertyBridge;
 # Table geografische_thesaurus_pubs
 map:Plaats_Annotatie a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "plaats/annotatie/@@geografische_thesaurus_pubs.content|urlify@@_@@geografische_thesaurus_pubs.kmc@@";
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/plaats/annotatie/@@geografische_thesaurus_pubs.content|urlify@@_@@geografische_thesaurus_pubs.kmc@@";
 	d2rq:class vocab:Plaats_Annotatie, oa:Annotation;
 	d2rq:classDefinitionLabel "geografische_thesaurus_pubs";
 	d2rq:condition "geografische_thesaurus_pubs.kmc <> ''"
@@ -186,7 +186,7 @@ map:Plaats_location_target a d2rq:PropertyBridge;
 # Table koepeltitel
 map:Koepeltitel a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "koepeltitel/@@koepeltitel.ppn|urlify@@";
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/koepeltitel/@@koepeltitel.ppn|urlify@@";
 	d2rq:class vocab:Koepeltitel;
 	d2rq:classDefinitionLabel "Koepeltitel";
 	.
@@ -199,7 +199,7 @@ map:Koepeltitel__label a d2rq:PropertyBridge;
 # Table onderwerpsontsluiting
 map:Onderwerp a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "onderwerp/@@onderwerpsontsluiting.content|urlify@@";
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/onderwerp/@@onderwerpsontsluiting.content|urlify@@";
 	d2rq:class vocab:Onderwerp;
 	d2rq:classDefinitionLabel "Onderwerp";
 	.
@@ -213,7 +213,7 @@ map:Onderwerp__label a d2rq:PropertyBridge;
 # Table publications
 map:Publicatie a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "publicatie/@@publications.ppn|urlify@@";
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/publicatie/@@publications.ppn|urlify@@";
 	d2rq:class vocab:Publicatie;
 	d2rq:classDefinitionLabel "Publicatie";
 	.
@@ -636,12 +636,12 @@ map:Publicatie_formaat a d2rq:PropertyBridge;
 	d2rq:belongsToClassMap map:Publicatie;
 	d2rq:property vocab:formaat;
 	d2rq:propertyDefinitionLabel "formaat";
-	d2rq:uriPattern "formaat/@@publications.kmc4062|urlify@@"
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/formaat/@@publications.kmc4062|urlify@@"
 	.
 
 map:Formaat a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "formaat/@@publications.kmc4062|urlify@@";
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/formaat/@@publications.kmc4062|urlify@@";
 	d2rq:class vocab:Formaat;
 	d2rq:classDefinitionLabel "Formaat";
 	.
@@ -658,12 +658,12 @@ map:Publicatie_jaar a d2rq:PropertyBridge;
 	d2rq:belongsToClassMap map:Publicatie;
 	d2rq:property vocab:jaar;
 	d2rq:propertyDefinitionLabel "jaar";
-	d2rq:uriPattern "jaar/@@publications.kmc1100|urlify@@"
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/jaar/@@publications.kmc1100|urlify@@"
 	.
 
 map:Jaar a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "jaar/@@publications.kmc1100|urlify@@";
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/jaar/@@publications.kmc1100|urlify@@";
 	d2rq:class vocab:Jaar;
 	d2rq:classDefinitionLabel "Jaar";
 	.
@@ -678,7 +678,7 @@ map:Jaar__label a d2rq:PropertyBridge;
 # Table selectie_pubs
 map:Selectie a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "selectie/@@selectie_pubs.id@@";
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/selectie/@@selectie_pubs.id@@";
 	d2rq:class vocab:Selectie;
 	d2rq:classDefinitionLabel "Selectie";
 	.
@@ -699,7 +699,7 @@ map:Selectie_kmc a d2rq:PropertyBridge;
 # Table vingerafdruk_pubs
 map:Vingerafdruk a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "vingerafdruk/@@vingerafdruk_pubs.id@@";
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/vingerafdruk/@@vingerafdruk_pubs.id@@";
 	d2rq:class vocab:Vingerafdruk;
 	d2rq:classDefinitionLabel "Vingerafdruk";
 	.
@@ -723,7 +723,7 @@ map:Vingerafdruk_match a d2rq:PropertyBridge ;
 # Table werkaantekening_pubs
 map:Werkaantekening a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "werkaantekening/@@werkaantekening_pubs.id@@";
+	d2rq:uriPattern "http://stcn.data2semantics.org/resource/werkaantekening/@@werkaantekening_pubs.id@@";
 	d2rq:class vocab:Werkaantekening;
 	d2rq:classDefinitionLabel "Werkaantekening";
 	.
