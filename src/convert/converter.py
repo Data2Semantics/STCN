@@ -826,6 +826,9 @@ class Converter(object):
         self.STCNV = Namespace('http://stcn.data2semantics.org/resource/vocab/')
         self.SKOS = Namespace('http://www.w3.org/2004/02/skos/core#')
         self.FOAF = Namespace('http://xmlns.com/foaf/0.1/')
+
+        self.stats = {}
+        self.stats["total_ppns"] = 0
         
     def __iter__(self):
         return self
@@ -848,7 +851,7 @@ class Converter(object):
                 self.prev_line = line.strip('\n')
                 started = False
                 break
-            elif line == '\n' :
+            elif line == '\n' or line == '\r' :
                 continue
             elif line.endswith('-\n') :
                 self.prev_line = line.strip("\n")
@@ -856,7 +859,7 @@ class Converter(object):
             
             pub_lines.append(self.prev_line + line.strip("\n"))
             self.prev_line = ""
-        
+
         print pub_lines
         self.rb_pos = count
         
@@ -886,7 +889,7 @@ class Converter(object):
         return g
     
     def get_ppn(self, g):
-        r = r'SET\:\s(?P<set>\w+\s.+?)\s+TTL\:\s(?P<ttl>\d+)\s+PPN\:\s(?P<ppn>(\d|\w){9})\s+PAG\:\s(?P<pag>\d+)\s\.\n'
+        r = r'SET\:\s(?P<set>\w+\s.+)\s+TTL\:\s(?P<ttl>\d+)\s+PPN\:\s(?P<ppn>(\d|\w){9})\s+PAG\:\s(?P<pag>\d+)\s\.(\n|\r)'
         m = re.search(r,self.current_text)
         print self.current_text
         
@@ -903,13 +906,15 @@ class Converter(object):
             g.add((uri,self.STCNV['ttl'],Literal(ttl_value)))
             g.add((uri,self.STCNV['pag'],Literal(pag_value)))
             g.add((uri,self.STCNV['ppn'],Literal(ppn_value)))
+
+            self.stats["total_ppns"] += 1
         
             return g, uri
         else:
             raise Exception('No match for PPN regex!')
         
     def get_meta(self, g, uri):
-        r = r'Ingevoerd\:\s(?P<ingevoerd>\d{4}\:\d\d-\d\d-\d\d)\sGewijzigd\:\s(?P<gewijzigd>\d{4}\:\d\d-\d\d-\d\d\s\d\d\:\d\d:\d\d)\sStatus:\s(?P<status>\d{4}\:\d\d-\d\d-\d\d)\n'
+        r = r'Ingevoerd\:\s(?P<ingevoerd>\d{4}\:\d\d-\d\d-\d\d)\sGewijzigd\:\s(?P<gewijzigd>\d{4}\:\d\d-\d\d-\d\d\s\d\d\:\d\d:\d\d)\sStatus:\s(?P<status>\d{4}\:\d\d-\d\d-\d\d)(\n|\r)'
         m = re.search(r,self.current_text)
         
         if m:
@@ -928,7 +933,7 @@ class Converter(object):
     def get_0500(self, g, uri):
         """Status, or type of work"""
         
-        r = r'0500\s(?P<status>\w{3})\n'
+        r = r'0500\s(?P<status>\w{3})(\n|\r)'
         m = re.search(r, self.current_text)
         
         if m:
@@ -959,7 +964,7 @@ class Converter(object):
     def get_1100(self, g, uri):
         """Year in which the work was published"""
         
-        r = r'1100\s(?P<jaar>(\w|\d){4})\n'
+        r = r'1100\s(?P<jaar>(\w|\d){4})(\n|\r)'
         m = re.search(r, self.current_text)
         
         if m:
@@ -982,7 +987,7 @@ class Converter(object):
     def get_1200(self, g, uri):
         """Typographical characteristics"""
         
-        r = r'1200\s(?P<typokenmerk>.+?)\n'
+        r = r'1200\s(?P<typokenmerk>.+?)(\n|\r)'
         kenmerken = re.findall(r, self.current_text)
         
         if len(kenmerken) < 1 :
@@ -1007,7 +1012,7 @@ class Converter(object):
     def get_1500(self, g, uri):
         """Language code"""
         
-        r = r'1500\s(?P<talen>.+?)\n'
+        r = r'1500\s(?P<talen>.+?)(\n|\r)'
         m = re.search(r, self.current_text)
         
         if m :
@@ -1040,7 +1045,7 @@ class Converter(object):
     def get_1700(self, g, uri):
         """Country code"""
         
-        r = r'1700\s(?P<landen>.+?)\n'
+        r = r'1700\s(?P<landen>.+?)(\n|\r)'
         m = re.search(r, self.current_text)
         
         if m :
@@ -1072,7 +1077,7 @@ class Converter(object):
     def get_2275(self, g, uri):
         """Fingerprint"""
         
-        r = r'2275\s(?P<vingerafdruk>.+?)\n'
+        r = r'2275\s(?P<vingerafdruk>.+?)(\n|\r)'
         m = re.search(r, self.current_text)
         
         if m :
@@ -1091,7 +1096,7 @@ class Converter(object):
         UNITS = ["eerste", "tweede", "derde", "vierde", "vijfde", "zesde", "zevende", "achtste", "negende"]
         
         # The 0 or 1 in the third position of KMC 3000/301X or beyond is irrelevant, as the count starts with 0 
-        r = r'30\d(?P<volgorde>\d)\s(?P<auteur>.+?)\n'
+        r = r'30\d(?P<volgorde>\d)\s(?P<auteur>.+?)(\n|\r)'
         i = re.finditer(r, self.current_text)
         
         first_author = None
@@ -1260,14 +1265,14 @@ class Converter(object):
         self.current_text = '\n'.join(self.current)
         
         g, uri = self.get_ppn(g)
-        g = self.get_meta(g, uri)
-        g = self.get_0500(g, uri)
-        g = self.get_1100(g, uri)
-        g = self.get_1200(g, uri)
-        g = self.get_1500(g, uri)
-        g = self.get_1700(g, uri)
-        g = self.get_2275(g, uri)
-        g, first_author = self.get_30XX(g, uri)
+        # g = self.get_meta(g, uri)
+        # g = self.get_0500(g, uri)
+        # g = self.get_1100(g, uri)
+        # g = self.get_1200(g, uri)
+        # g = self.get_1500(g, uri)
+        # g = self.get_1700(g, uri)
+        # g = self.get_2275(g, uri)
+        # g, first_author = self.get_30XX(g, uri)
         
         print g.serialize(format='n3')
         
@@ -1285,17 +1290,16 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     redactiebladen = open(args.redactiebladen,"r")
+    rb_copy = open(args.redactiebladen,"r")
+    rb_size = len(rb_copy.readlines())
+    rb_copy.close()
     
     c = Converter(redactiebladen)
-    
-    
-    c.next()
-    c.parse()
-    c.next()
-    c.parse()
-#    c.next()
-#    c.next()
-#    c.next()
-#    c.next()
-#    c.next()
-#    c.parse()
+        
+    while c.rb_pos < rb_size:
+        c.next()
+        c.parse()
+
+    print c.stats
+
+    c.rb.close()
