@@ -1,0 +1,6062 @@
+Formula: A-N`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet N
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 156
+Pages: 312
+
+Formula: A-I`SUP`12`LO` K`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet I
+sheet_count 12
+missing None
+remain_start K
+remain_end None
+remain_n 4
+Sheets: 112
+Pages: 224
+
+Formula: *`SUP`4`LO`(-*4) A-G`SUP`12`LO` H`SUP`8`LO` (H8 blank)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start H
+remain_end None
+remain_n 8
+Sheets: 96
+Pages: 192
+
+Formula: A-G`SUP`12`LO` H`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start H
+remain_end None
+remain_n 6
+Sheets: 90
+Pages: 180
+
+Formula: Û`SUP`2`LO` A-V`SUP`12`LO` X`SUP`8`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet V
+sheet_count 12
+missing None
+remain_start X
+remain_end None
+remain_n 8
+Sheets: 262
+Pages: 524
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: A-O`SUP`12`LO` P`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet O
+sheet_count 12
+missing None
+remain_start P
+remain_end None
+remain_n 6
+Sheets: 174
+Pages: 348
+
+Formula: Û1 A-K`SUP`8/4`LO` L`SUP`4`LO` (lacks L4, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 8
+missing None
+remain_start L
+remain_end None
+remain_n 4
+Sheets: 84
+Pages: 168
+
+Formula: A-D`SUP`12`LO` E`SUP`6`LO` F-K`SUP`12`LO` L`SUP`4`LO` (L4 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start E
+remain_end None
+remain_n 6
+Sheets: 54
+Pages: 108
+
+Formula: Û1 A-D`SUP`12`LO` E`SUP`10`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start E
+remain_end None
+remain_n 10
+Sheets: 58
+Pages: 116
+
+Formula: A-D`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 48
+Pages: 96
+
+Formula: A-I`SUP`12`LO` K`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet I
+sheet_count 12
+missing None
+remain_start K
+remain_end None
+remain_n 8
+Sheets: 116
+Pages: 232
+
+Formula: A-I`SUP`12`LO` K`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet I
+sheet_count 12
+missing None
+remain_start K
+remain_end None
+remain_n 8
+Sheets: 116
+Pages: 232
+
+Formula: A-F`SUP`4`LO` (lacks F4, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 24
+Pages: 48
+
+Formula: A-F`SUP`12`LO` (F12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: A-F`SUP`12`LO` (F12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: A-B`SUP`4`LO` (B4 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 8
+Pages: 16
+
+Formula: A-B`SUP`4`LO` (lacks B4, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 8
+Pages: 16
+
+Formula: Û1 A-G`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 84
+Pages: 168
+
+Formula: Û`SUP`2`LO` A-D`SUP`12`LO` E`SUP`8`LO` (E8 blank)
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start E
+remain_end None
+remain_n 8
+Sheets: 58
+Pages: 116
+
+Formula: A-H`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 96
+Pages: 192
+
+Formula: *`SUP`2`LO` A-G`SUP`12`LO` H`SUP`10`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start H
+remain_end None
+remain_n 10
+Sheets: 96
+Pages: 192
+
+Formula: Û1 A-T`SUP`12`LO` V`SUP`8`LO` [X]`SUP`2`LO` ([X]2 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start V
+remain_end None
+remain_n 8
+Sheets: 236
+Pages: 472
+
+Formula: A-D`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 48
+Pages: 96
+
+Formula: A-I`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet I
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 108
+Pages: 216
+
+Formula: A-E`SUP`12`LO` F`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing None
+remain_start F
+remain_end None
+remain_n 8
+Sheets: 68
+Pages: 136
+
+Formula: Û1 A-P`SUP`12`LO` Q`SUP`4`LO` 2A-2K`SUP`12`LO` 2L`SUP`6`LO` (Q4 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet P
+sheet_count 12
+missing None
+remain_start Q
+remain_end None
+remain_n 4
+Sheets: 184
+Pages: 368
+
+Formula: Û1 A-N`SUP`12`LO` O`SUP`10`LO` (O10 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet N
+sheet_count 12
+missing None
+remain_start O
+remain_end None
+remain_n 10
+Sheets: 166
+Pages: 332
+
+Formula: *`SUP`6`LO`(-*6) A-M`SUP`12`LO` (M12 blank)
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet M
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 150
+Pages: 300
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: *`SUP`6`LO` A-R`SUP`12`LO` S`SUP`6`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet R
+sheet_count 12
+missing None
+remain_start S
+remain_end None
+remain_n 6
+Sheets: 216
+Pages: 432
+
+Formula: A-K`SUP`12`LO` L`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 12
+missing None
+remain_start L
+remain_end None
+remain_n 6
+Sheets: 126
+Pages: 252
+
+Formula: A-2B`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet B
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 600
+Pages: 1200
+
+Formula: *`SUP`12`LO` A-2A`SUP`12`LO`
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet A
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 600
+Pages: 1200
+
+Formula: *`SUP`6`LO` A-P`SUP`12`LO` Q`SUP`6`LO`, `SUP`2`LO`A-F`SUP`12`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet P
+sheet_count 12
+missing None
+remain_start Q
+remain_end None
+remain_n 6
+Sheets: 192
+Pages: 384
+
+Formula: 3 volumes
+I do not recognise this formula!
+
+Formula: A-P`SUP`12`LO` `SUP`2`LO`A-G`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet P
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 180
+Pages: 360
+
+Formula: A-F`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: *`SUP`6`LO` A-N`SUP`12`LO` O-P`SUP`6`LO` (P6 blank)
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet N
+sheet_count 12
+missing None
+remain_start O
+remain_end P
+remain_n 6
+Sheets: 168
+Pages: 336
+
+Formula: *`SUP`10`LO` A-X`SUP`12`LO` Y`SUP`8`LO`
+cover_sheet 0
+pren 10
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet X
+sheet_count 12
+missing None
+remain_start Y
+remain_end None
+remain_n 8
+Sheets: 282
+Pages: 564
+
+Formula: A-C`SUP`12`LO` (C12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 36
+Pages: 72
+
+Formula: A-I`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet I
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 108
+Pages: 216
+
+Formula: *`SUP`6`LO` A-L`SUP`12`LO` M`SUP`6`LO` N`SUP`8`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet L
+sheet_count 12
+missing None
+remain_start M
+remain_end None
+remain_n 6
+Sheets: 144
+Pages: 288
+
+Formula: A-T`SUP`12`LO` V`SUP`10`LO`, `SUP`2`LO`A-F`SUP`12`LO` `SUP`2`LO`G`SUP`6`LO` (V10 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start V
+remain_end None
+remain_n 10
+Sheets: 238
+Pages: 476
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: A`SUP`12`LO`(-A12) B-H`SUP`12`LO` I`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 12
+missing A12
+remain_start B
+remain_end H
+remain_n 12
+Sheets: 108
+Pages: 216
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: A-H`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 96
+Pages: 192
+
+Formula: A-F`SUP`12`LO` G`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start G
+remain_end None
+remain_n 6
+Sheets: 78
+Pages: 156
+
+Formula: *`SUP`4`LO` A-S`SUP`12`LO` T`SUP`8`LO`
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet S
+sheet_count 12
+missing None
+remain_start T
+remain_end None
+remain_n 8
+Sheets: 228
+Pages: 456
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: Û1 A-B`SUP`12`LO` C`SUP`2`LO` `SUP`2`LO`A-D`SUP`12`LO` (`SUP`2`LO`D12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start C
+remain_end None
+remain_n 2
+Sheets: 26
+Pages: 52
+
+Formula: A-C`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 36
+Pages: 72
+
+Formula: A`SUP`12`LO`(-A12) B-F`SUP`12`LO` G`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing A12
+remain_start B
+remain_end F
+remain_n 12
+Sheets: 84
+Pages: 168
+
+Formula: Û`SUP`2`LO` 2Û1 A-I`SUP`8`LO` K`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet I
+sheet_count 8
+missing None
+remain_start K
+remain_end None
+remain_n 6
+Sheets: 78
+Pages: 156
+
+Formula: A-D`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 48
+Pages: 96
+
+Formula: A-X`SUP`12`LO` Y`SUP`12`LO`(-Y12) Z`SUP`12`LO` 2A`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet X
+sheet_count 12
+missing None
+remain_start Y
+remain_end None
+remain_n 12
+Sheets: 276
+Pages: 552
+
+Formula: A-E`SUP`12`LO` F`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing None
+remain_start F
+remain_end None
+remain_n 8
+Sheets: 68
+Pages: 136
+
+Formula: A-X`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet X
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 264
+Pages: 528
+
+Formula: Û1 A-D`SUP`12`LO` E`SUP`8`LO` (E8 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start E
+remain_end None
+remain_n 8
+Sheets: 56
+Pages: 112
+
+Formula: A-2B`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet B
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 600
+Pages: 1200
+
+Formula: *`SUP`8`LO` A-G`SUP`12`LO` H`SUP`4`LO`
+cover_sheet 0
+pren 8
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start H
+remain_end None
+remain_n 4
+Sheets: 96
+Pages: 192
+
+Formula: *`SUP`6`LO` A-L`SUP`8`LO` M`SUP`4`LO` M5
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet L
+sheet_count 8
+missing None
+remain_start M
+remain_end None
+remain_n 4
+Sheets: 98
+Pages: 196
+
+Formula: *`SUP`8`LO` A-X`SUP`8`LO` (X7-8 blank)
+cover_sheet 0
+pren 8
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet X
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 184
+Pages: 368
+
+Formula: Û1 A`SUP`12`LO`(-A12) B-I`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet I
+sheet_count 12
+missing A12
+remain_start B
+remain_end I
+remain_n 12
+Sheets: 120
+Pages: 240
+
+Formula: *`SUP`4`LO` A-Q`SUP`12`LO` R`SUP`6`LO`
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet Q
+sheet_count 12
+missing None
+remain_start R
+remain_end None
+remain_n 6
+Sheets: 202
+Pages: 404
+
+Formula: *`SUP`6`LO` A-Z`SUP`12`LO` (Z12 blank)
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet Z
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 294
+Pages: 588
+
+Formula: *`SUP`6`LO` A-O`SUP`12`LO` P-Q`SUP`6`LO`, `SUP`2`LO`A-F`SUP`12`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet O
+sheet_count 12
+missing None
+remain_start P
+remain_end Q
+remain_n 6
+Sheets: 180
+Pages: 360
+
+Formula: *`SUP`12`LO` A-2A`SUP`12`LO` (2A12 blank)
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet A
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 600
+Pages: 1200
+
+Formula: A-E`SUP`12`LO` F`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing None
+remain_start F
+remain_end None
+remain_n 6
+Sheets: 66
+Pages: 132
+
+Formula: A-H`SUP`12`LO` (the rest is missing)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 96
+Pages: 192
+
+Formula: A-B`SUP`12`LO` C`SUP`12`LO`(-C12), `SUP`2`LO`A-D`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start C
+remain_end None
+remain_n 12
+Sheets: 36
+Pages: 72
+
+Formula: A-H`SUP`12`LO` I`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 12
+missing None
+remain_start I
+remain_end None
+remain_n 4
+Sheets: 100
+Pages: 200
+
+Formula: *`SUP`12`LO` A-Y`SUP`12`LO`
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet Y
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 288
+Pages: 576
+
+Formula: *`SUP`12`LO` A-L`SUP`12`LO`
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet L
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 144
+Pages: 288
+
+Formula: 4 volumes
+I do not recognise this formula!
+
+Formula: *`SUP`6`LO` A-H`SUP`12`LO` I`SUP`6`LO` (I6 blank; lacks *6, blank?)
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 12
+missing None
+remain_start I
+remain_end None
+remain_n 6
+Sheets: 108
+Pages: 216
+
+Formula: Û1 A-X`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet X
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 264
+Pages: 528
+
+Formula: A-D`SUP`8`LO` E1
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 32
+Pages: 64
+
+Formula: a`SUP`12`LO` b`SUP`6`LO`(-b6) A-L`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet a
+end_sheet_n 1
+end_sheet b
+sheet_count 12
+missing None
+remain_start b
+remain_end None
+remain_n 6
+Sheets: 30
+Pages: 60
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: A-T`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 228
+Pages: 456
+
+Formula: A-B`SUP`12`LO` C1
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 24
+Pages: 48
+
+Formula: A-B`SUP`12`LO` C`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start C
+remain_end None
+remain_n 4
+Sheets: 28
+Pages: 56
+
+Formula: A-K`SUP`12`LO` L`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 12
+missing None
+remain_start L
+remain_end None
+remain_n 6
+Sheets: 126
+Pages: 252
+
+Formula: A-L`SUP`12`LO` (L10-12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet L
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 132
+Pages: 264
+
+Formula: A-F`SUP`12`LO` (lacks F12, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: &#x2020;`SUP`2`LO` *-5*`SUP`8`LO` 6*`SUP`2`LO` A-2D`SUP`8`LO` 2E`SUP`4`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet D
+sheet_count 8
+missing None
+remain_start 2E
+remain_end None
+remain_n 4
+Sheets: 422
+Pages: 844
+
+Formula: П`SUP`2`LO` A-Y`SUP`8/4`LO` Z`SUP`8`LO` 2A1
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet Y
+sheet_count 8
+missing None
+remain_start Z
+remain_end None
+remain_n 8
+Sheets: 194
+Pages: 388
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: *`SUP`4`LO` A-L`SUP`12`LO` M`SUP`4`LO`
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet L
+sheet_count 12
+missing None
+remain_start M
+remain_end None
+remain_n 4
+Sheets: 140
+Pages: 280
+
+Formula: A-G`SUP`12`LO` H`SUP`10`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start H
+remain_end None
+remain_n 10
+Sheets: 94
+Pages: 188
+
+Formula: `SUP`Û`LO`A`SUP`2`LO` a-n`SUP`6`LO` o`SUP`4`LO` (o4 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet n
+sheet_count 2
+missing None
+remain_start a
+remain_end n
+remain_n 6
+Sheets: 32
+Pages: 64
+
+Formula: П1 *`SUP`4`LO` A-K`SUP`12`LO` L1
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 124
+Pages: 248
+
+Formula: A-B`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 24
+Pages: 48
+
+Formula: A-E`SUP`6`LO` F`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 6
+missing None
+remain_start F
+remain_end None
+remain_n 4
+Sheets: 34
+Pages: 68
+
+Formula: A-F`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: A-2A`SUP`12`LO` 2B`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet A
+sheet_count 12
+missing None
+remain_start 2B
+remain_end None
+remain_n 6
+Sheets: 594
+Pages: 1188
+
+Formula: *`SUP`2`LO` A-V`SUP`12`LO` X`SUP`6`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet V
+sheet_count 12
+missing None
+remain_start X
+remain_end None
+remain_n 6
+Sheets: 260
+Pages: 520
+
+Formula: 3 volumes
+I do not recognise this formula!
+
+Formula: Û1 A-P`SUP`12`LO` Q`SUP`10`LO` [R]1
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet P
+sheet_count 12
+missing None
+remain_start Q
+remain_end None
+remain_n 10
+Sheets: 190
+Pages: 380
+
+Formula: a`SUP`6`LO` e`SUP`6`LO` A-H`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet a
+end_sheet_n 1
+end_sheet e
+sheet_count 6
+missing None
+remain_start e
+remain_end None
+remain_n 6
+Sheets: 36
+Pages: 72
+
+Formula: A-D`SUP`12`LO` (D12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 48
+Pages: 96
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: *`SUP`2`LO` A-2C`SUP`12`LO` 2D`SUP`4`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet C
+sheet_count 12
+missing None
+remain_start 2D
+remain_end None
+remain_n 4
+Sheets: 618
+Pages: 1236
+
+Formula: A-F`SUP`12`LO` G`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start G
+remain_end None
+remain_n 6
+Sheets: 78
+Pages: 156
+
+Formula: Û1 A-C`SUP`12`LO` D`SUP`4`LO` (D4 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 12
+missing None
+remain_start D
+remain_end None
+remain_n 4
+Sheets: 40
+Pages: 80
+
+Formula: Û1 A-E`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 20
+Pages: 40
+
+Formula: A-F`SUP`12`LO` (F12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: *`SUP`12`LO` A-P`SUP`12`LO` (P12 blank)
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet P
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 192
+Pages: 384
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: A-K`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 120
+Pages: 240
+
+Formula: A-E`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 60
+Pages: 120
+
+Formula: Û1 a`SUP`12`LO`(-a12) e`SUP`12`LO` i`SUP`8`LO`(-i7;i6+`SUP`Û`LO`i`SUP`2`LO`) A`SUP`12`LO`(-A10;A9+`S
+cover_sheet 0
+pren 0
+pre None
+start_sheet a
+end_sheet_n 1
+end_sheet e
+sheet_count 12
+missing a12
+remain_start e
+remain_end None
+remain_n 12
+Sheets: 72
+Pages: 144
+
+Formula: A-2B`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet B
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 600
+Pages: 1200
+
+Formula: *`SUP`4`LO` A-2H`SUP`8`LO`
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet H
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 452
+Pages: 904
+
+Formula: *`SUP`4`LO` A-G`SUP`12`LO` (G12 blank)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 88
+Pages: 176
+
+Formula: A-T`SUP`12`LO` V`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start V
+remain_end None
+remain_n 6
+Sheets: 234
+Pages: 468
+
+Formula: A-2Z`SUP`4`LO` 3A`SUP`2`LO` a-n`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet Z
+sheet_count 4
+missing None
+remain_start 3A
+remain_end None
+remain_n 2
+Sheets: 290
+Pages: 580
+
+Formula: *`SUP`4`LO`(-*4) A-2C`SUP`12`LO` 2D`SUP`8`LO` (2D8 blank)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet C
+sheet_count 12
+missing None
+remain_start 2D
+remain_end None
+remain_n 8
+Sheets: 624
+Pages: 1248
+
+Formula: П`SUP`2`LO` A-2A`SUP`12`LO` 2B`SUP`10`LO` 2C-2D`SUP`12`LO` 2E`SUP`6`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet A
+sheet_count 12
+missing None
+remain_start 2B
+remain_end None
+remain_n 10
+Sheets: 600
+Pages: 1200
+
+Formula: A-F`SUP`12`LO` (lacks F12, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: *`SUP`2`LO` A-R`SUP`12`LO` S`SUP`10`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet R
+sheet_count 12
+missing None
+remain_start S
+remain_end None
+remain_n 10
+Sheets: 216
+Pages: 432
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: П`SUP`6`LO` A-K`SUP`12`LO` L`SUP`4`LO` &#x03c7;1,2 M-2F`SUP`12`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 12
+missing None
+remain_start L
+remain_end None
+remain_n 4
+Sheets: 130
+Pages: 260
+
+Formula: *`SUP`2`LO` A-3L`SUP`4`LO` `SUP`2`LO`A-3X`SUP`4`LO` 3Y`SUP`2`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 3
+end_sheet L
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 430
+Pages: 860
+
+Formula: *`SUP`6`LO` A-T`SUP`12`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 234
+Pages: 468
+
+Formula: *`SUP`8`LO` 2*`SUP`2`LO` A-2V`SUP`8`LO` 2X`SUP`4`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet V
+sheet_count 8
+missing None
+remain_start 2X
+remain_end None
+remain_n 4
+Sheets: 558
+Pages: 1116
+
+Formula: A-G`SUP`6`LO` H`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 6
+missing None
+remain_start H
+remain_end None
+remain_n 4
+Sheets: 46
+Pages: 92
+
+Formula: a`SUP`4`LO` A-I`SUP`12`LO` K`SUP`2`LO` (lacks A1, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet a
+end_sheet_n 1
+end_sheet I
+sheet_count 4
+missing None
+remain_start A
+remain_end I
+remain_n 12
+Sheets: 48
+Pages: 96
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: Û1 A-C`SUP`4`LO` D`SUP`4`LO`(-D3)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 4
+missing None
+remain_start D
+remain_end None
+remain_n 4
+Sheets: 16
+Pages: 32
+
+Formula: *`SUP`4`LO` `SUP`2`LO`*`SUP`8`LO`(-`SUP`2`LO`*1) `SUP`2`LO`2*`SUP`2`LO` A-
+I do not recognise this formula!
+
+Formula: A-B`SUP`12`LO` C`SUP`6`LO` `SUP`2`LO`A-D`SUP`12`LO` (`SUP`2`LO`D12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start C
+remain_end None
+remain_n 6
+Sheets: 30
+Pages: 60
+
+Formula: A-D`SUP`12`LO` E`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start E
+remain_end None
+remain_n 6
+Sheets: 54
+Pages: 108
+
+Formula: *`SUP`6`LO` A-T`SUP`12`LO` V`SUP`6`LO` (lacks *1, blank?) (V6 blank)
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start V
+remain_end None
+remain_n 6
+Sheets: 240
+Pages: 480
+
+Formula: A-M`SUP`8/4`LO` N`SUP`4`LO` (N4 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet M
+sheet_count 8
+missing None
+remain_start N
+remain_end None
+remain_n 4
+Sheets: 100
+Pages: 200
+
+Formula: П1 *`SUP`4`LO`(-*4) A-L`SUP`12`LO` M`SUP`12`LO`(-M12) N-S`SUP`12`LO`
+cover_sheet 0
+pren 4
+pre None
+start_sheet N
+end_sheet_n 1
+end_sheet S
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 76
+Pages: 152
+
+Formula: A-F`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: *-10*`SUP`8`LO` 11*`SUP`4`LO` A-H`SUP`8`LO`
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 68
+Pages: 136
+
+Formula: A-L`SUP`8`LO` M`SUP`4`LO` `SUP`2`LO`A`SUP`6`LO`(-A6) `SUP`2`LO`B-
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet L
+sheet_count 8
+missing None
+remain_start M
+remain_end None
+remain_n 4
+Sheets: 92
+Pages: 184
+
+Formula: П`SUP`2`LO` A-R`SUP`12`LO` S`SUP`8`LO` T`SUP`2`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet R
+sheet_count 12
+missing None
+remain_start S
+remain_end None
+remain_n 8
+Sheets: 214
+Pages: 428
+
+Formula: A-H`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 96
+Pages: 192
+
+Formula: П`SUP`6`LO` A-2F`SUP`12`LO` 2G`SUP`6`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet F
+sheet_count 12
+missing None
+remain_start 2G
+remain_end None
+remain_n 6
+Sheets: 660
+Pages: 1320
+
+Formula: A-K`SUP`12`LO` L`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 12
+missing None
+remain_start L
+remain_end None
+remain_n 6
+Sheets: 126
+Pages: 252
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: *`SUP`8`LO` 2*`SUP`2`LO` A-I`SUP`8`LO` K`SUP`6`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet I
+sheet_count 8
+missing None
+remain_start K
+remain_end None
+remain_n 6
+Sheets: 80
+Pages: 160
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: *`SUP`4`LO` A-B`SUP`12`LO` C`SUP`6`LO` D`SUP`4`LO` (lacks D4, blank?)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start C
+remain_end None
+remain_n 6
+Sheets: 34
+Pages: 68
+
+Formula: A-F`SUP`4`LO` (lacks F4, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 24
+Pages: 48
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: A-B`SUP`12`LO` C`SUP`6`LO` `SUP`2`LO`A-N`SUP`12`LO` `SUP`2`LO`O`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start C
+remain_end None
+remain_n 6
+Sheets: 30
+Pages: 60
+
+Formula: П1 A`SUP`12`LO`(-A12) B-C`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 12
+missing A12
+remain_start B
+remain_end C
+remain_n 12
+Sheets: 48
+Pages: 96
+
+Formula: П1 A`SUP`12`LO`(-A12) B-E`SUP`12`LO` F`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing A12
+remain_start B
+remain_end E
+remain_n 12
+Sheets: 72
+Pages: 144
+
+Formula: Û1 A`SUP`12`LO`(-A12) B-R`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet R
+sheet_count 12
+missing A12
+remain_start B
+remain_end R
+remain_n 12
+Sheets: 216
+Pages: 432
+
+Formula: П1 *`SUP`4`LO`(-*4) A-L`SUP`12`LO` M`SUP`12`LO`(-M12) N-S`SUP`12`LO`
+cover_sheet 0
+pren 4
+pre None
+start_sheet N
+end_sheet_n 1
+end_sheet S
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 76
+Pages: 152
+
+Formula: П1 A`SUP`12`LO`(-A12) B-H`SUP`12`LO` I`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 12
+missing A12
+remain_start B
+remain_end H
+remain_n 12
+Sheets: 108
+Pages: 216
+
+Formula: *`SUP`6`LO` A-I`SUP`12`LO` K`SUP`4`LO` (lacks *6, blank?)
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet I
+sheet_count 12
+missing None
+remain_start K
+remain_end None
+remain_n 4
+Sheets: 118
+Pages: 236
+
+Formula: *`SUP`2`LO` A-2C`SUP`12`LO` 2D`SUP`8`LO` (2D8 blank)
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet C
+sheet_count 12
+missing None
+remain_start 2D
+remain_end None
+remain_n 8
+Sheets: 622
+Pages: 1244
+
+Formula: П`SUP`4`LO` A-P`SUP`8`LO` Q`SUP`4`LO` (lacks Q4, blank?)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet P
+sheet_count 8
+missing None
+remain_start Q
+remain_end None
+remain_n 4
+Sheets: 128
+Pages: 256
+
+Formula: П`SUP`4`LO`(-П4) A-I`SUP`8`LO` (I8 blank)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet I
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 76
+Pages: 152
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: A`SUP`12`LO` B`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start B
+remain_end None
+remain_n 6
+Sheets: 30
+Pages: 60
+
+Formula: A-H`SUP`12`LO` I`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 12
+missing None
+remain_start I
+remain_end None
+remain_n 8
+Sheets: 104
+Pages: 208
+
+Formula: A-L`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet L
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 132
+Pages: 264
+
+Formula: A-C`SUP`12`LO` D`SUP`10`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 12
+missing None
+remain_start D
+remain_end None
+remain_n 10
+Sheets: 46
+Pages: 92
+
+Formula: П1 A`SUP`12`LO`(-A12) B-K`SUP`12`LO` L`SUP`4`LO` ë1 O`SUP`12`LO`(-O12) P-
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 12
+missing A12
+remain_start B
+remain_end K
+remain_n 12
+Sheets: 132
+Pages: 264
+
+Formula: Û1 A-C`SUP`12`LO` D`SUP`4`LO` (D4 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 12
+missing None
+remain_start D
+remain_end None
+remain_n 4
+Sheets: 40
+Pages: 80
+
+Formula: A-G`SUP`12`LO` H`SUP`4`LO` (lacks H4, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start H
+remain_end None
+remain_n 4
+Sheets: 88
+Pages: 176
+
+Formula: *`SUP`6`LO` A-V`SUP`12`LO` X`SUP`6`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet V
+sheet_count 12
+missing None
+remain_start X
+remain_end None
+remain_n 6
+Sheets: 264
+Pages: 528
+
+Formula: A-Y`SUP`12`LO` (Y12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet Y
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 276
+Pages: 552
+
+Formula: A-L`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet L
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 132
+Pages: 264
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: A-O`SUP`6`LO` P`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet O
+sheet_count 6
+missing None
+remain_start P
+remain_end None
+remain_n 4
+Sheets: 88
+Pages: 176
+
+Formula: A-O`SUP`6`LO` P`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet O
+sheet_count 6
+missing None
+remain_start P
+remain_end None
+remain_n 4
+Sheets: 88
+Pages: 176
+
+Formula: A-C`SUP`12`LO` D`SUP`2`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 12
+missing None
+remain_start D
+remain_end None
+remain_n 2
+Sheets: 38
+Pages: 76
+
+Formula: A-2T`SUP`8/4`LO` (2T4 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet T
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 536
+Pages: 1072
+
+Formula: Û1 A-H`SUP`8`LO` I`SUP`8`LO`(-I8) K`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 8
+missing None
+remain_start I
+remain_end None
+remain_n 8
+Sheets: 72
+Pages: 144
+
+Formula: A-L`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet L
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 132
+Pages: 264
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: *`SUP`12`LO` 2*`SUP`6`LO` A-2A`SUP`12`LO` (2A12 blank)
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet A
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 594
+Pages: 1188
+
+Formula: *`SUP`12`LO` A-L`SUP`12`LO` M`SUP`6`LO`
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet L
+sheet_count 12
+missing None
+remain_start M
+remain_end None
+remain_n 6
+Sheets: 150
+Pages: 300
+
+Formula: *`SUP`12`LO` A-2A`SUP`12`LO` (2A12 blank)
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet A
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 600
+Pages: 1200
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: *`SUP`2`LO` A-2C`SUP`12`LO` 2D`SUP`8`LO` (2D8 blank)
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet C
+sheet_count 12
+missing None
+remain_start 2D
+remain_end None
+remain_n 8
+Sheets: 622
+Pages: 1244
+
+Formula: *`SUP`8`LO` A-Q`SUP`12`LO` R`SUP`4`LO` S`SUP`6`LO` (S6 blank)
+cover_sheet 0
+pren 8
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet Q
+sheet_count 12
+missing None
+remain_start R
+remain_end None
+remain_n 4
+Sheets: 204
+Pages: 408
+
+Formula: A-B`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 8
+Pages: 16
+
+Formula: A-K`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 40
+Pages: 80
+
+Formula: A-F`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: A-G`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 84
+Pages: 168
+
+Formula: A-G`SUP`12`LO` H`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start H
+remain_end None
+remain_n 6
+Sheets: 90
+Pages: 180
+
+Formula: A-C`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 36
+Pages: 72
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: A-F`SUP`12`LO` (F12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: A-G`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 84
+Pages: 168
+
+Formula: *`SUP`6`LO` A-O`SUP`12`LO` P`SUP`6`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet O
+sheet_count 12
+missing None
+remain_start P
+remain_end None
+remain_n 6
+Sheets: 180
+Pages: 360
+
+Formula: *`SUP`12`LO` A-2A`SUP`12`LO` (2A11,12 blank)
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet A
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 600
+Pages: 1200
+
+Formula: A-F`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: A-D`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 48
+Pages: 96
+
+Formula: A-C`SUP`8`LO` (C8 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 24
+Pages: 48
+
+Formula: Û1 a-f`SUP`12`LO` g`SUP`12`LO`(-g11,12) h-n`SUP`12`LO` o`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet a
+end_sheet_n 1
+end_sheet f
+sheet_count 12
+missing None
+remain_start g
+remain_end None
+remain_n 12
+Sheets: 84
+Pages: 168
+
+Formula: Û1 A-Q`SUP`12`LO` R`SUP`2`LO` 2A-2L`SUP`12`LO` 2M`SUP`4`LO` (2M4 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet Q
+sheet_count 12
+missing None
+remain_start R
+remain_end None
+remain_n 2
+Sheets: 194
+Pages: 388
+
+Formula: A-G`SUP`12`LO` H`SUP`8`LO`(-H8) I-P`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start H
+remain_end None
+remain_n 8
+Sheets: 92
+Pages: 184
+
+Formula: *`SUP`6`LO` A-R`SUP`12`LO` S`SUP`6`LO` T`SUP`8`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet R
+sheet_count 12
+missing None
+remain_start S
+remain_end None
+remain_n 6
+Sheets: 216
+Pages: 432
+
+Formula: *`SUP`12`LO` A-H`SUP`12`LO`
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 108
+Pages: 216
+
+Formula: *`SUP`12`LO` A-G`SUP`12`LO` H`SUP`6`LO`
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start H
+remain_end None
+remain_n 6
+Sheets: 102
+Pages: 204
+
+Formula: A-F`SUP`12`LO` (F11 blank; lacks F12, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: A-C`SUP`12`LO` D`SUP`2`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 12
+missing None
+remain_start D
+remain_end None
+remain_n 2
+Sheets: 38
+Pages: 76
+
+Formula: A-G`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 84
+Pages: 168
+
+Formula: *`SUP`4`LO` [2*]1 A-T`SUP`12`LO` V`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start V
+remain_end None
+remain_n 4
+Sheets: 232
+Pages: 464
+
+Formula: Û1 A-I`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet I
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 108
+Pages: 216
+
+Formula: &#x2020;`SUP`4`LO`(-&#x2020;4) A-K`SUP`12`LO` L1
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 124
+Pages: 248
+
+Formula: *`SUP`2`LO` A-2A`SUP`8`LO` 2B`SUP`6`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet A
+sheet_count 8
+missing None
+remain_start 2B
+remain_end None
+remain_n 6
+Sheets: 400
+Pages: 800
+
+Formula: *`SUP`8`LO` A-T`SUP`12`LO` V`SUP`6`LO` X`SUP`4`LO` (lacks *1, blank?)
+cover_sheet 0
+pren 8
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start V
+remain_end None
+remain_n 6
+Sheets: 242
+Pages: 484
+
+Formula: A-E`SUP`12`LO` F`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing None
+remain_start F
+remain_end None
+remain_n 6
+Sheets: 66
+Pages: 132
+
+Formula: *`SUP`4`LO` A-O`SUP`12`LO` P`SUP`2`LO`
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet O
+sheet_count 12
+missing None
+remain_start P
+remain_end None
+remain_n 2
+Sheets: 174
+Pages: 348
+
+Formula: A-K`SUP`8`LO` (K7-8 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 80
+Pages: 160
+
+Formula: A-C`SUP`4`LO` (C4 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 12
+Pages: 24
+
+Formula: A-C`SUP`12`LO` (C9-12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 36
+Pages: 72
+
+Formula: A-K`SUP`12`LO` L`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 12
+missing None
+remain_start L
+remain_end None
+remain_n 6
+Sheets: 126
+Pages: 252
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: A-E`SUP`12`LO` F`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing None
+remain_start F
+remain_end None
+remain_n 6
+Sheets: 66
+Pages: 132
+
+Formula: *`SUP`12`LO` 2*`SUP`6`LO` 3*`SUP`4`LO` A-M`SUP`12`LO` N`SUP`8`LO`
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet M
+sheet_count 12
+missing None
+remain_start N
+remain_end None
+remain_n 8
+Sheets: 156
+Pages: 312
+
+Formula: Û`SUP`1`LO` A-Q`SUP`12`LO` R`SUP`2`LO` 2A-2L`SUP`12`LO` 2M`SUP`4`LO` (2M4 blank)
+cover_sheet 0
+pren 1
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet Q
+sheet_count 12
+missing None
+remain_start R
+remain_end None
+remain_n 2
+Sheets: 195
+Pages: 390
+
+Formula: *`SUP`8`LO` A-T`SUP`12`LO` V`SUP`6`LO` X`SUP`4`LO`
+cover_sheet 0
+pren 8
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start V
+remain_end None
+remain_n 6
+Sheets: 242
+Pages: 484
+
+Formula: Û1 A-G`SUP`12`LO` (G11-12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 84
+Pages: 168
+
+Formula: A-B`SUP`12`LO` C`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start C
+remain_end None
+remain_n 4
+Sheets: 28
+Pages: 56
+
+Formula: A-F`SUP`12`LO` G`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start G
+remain_end None
+remain_n 4
+Sheets: 76
+Pages: 152
+
+Formula: Ì`SUP`8`LO` A-T`SUP`12`LO`
+cover_sheet 0
+pren 8
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 236
+Pages: 472
+
+Formula: Û`SUP`2`LO` A`SUP`10`LO` B-N`SUP`12`LO` P`SUP`8`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet N
+sheet_count 10
+missing None
+remain_start B
+remain_end N
+remain_n 12
+Sheets: 144
+Pages: 288
+
+Formula: A-F`SUP`12`LO` G`SUP`8`LO` (G8 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start G
+remain_end None
+remain_n 8
+Sheets: 80
+Pages: 160
+
+Formula: A-I`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet I
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: *-2*`SUP`12`LO` `SUP`2`LO`*`SUP`12`LO` A-M`SUP`12`LO`
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet M
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 156
+Pages: 312
+
+Formula: åa`SUP`8`LO` A-M`SUP`12`LO` N`SUP`6`LO` (N6 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet a
+end_sheet_n 1
+end_sheet M
+sheet_count 8
+missing None
+remain_start A
+remain_end M
+remain_n 12
+Sheets: 108
+Pages: 216
+
+Formula: П1 A-D`SUP`8`LO` E`SUP`2`LO` [F]1
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 8
+missing None
+remain_start E
+remain_end None
+remain_n 2
+Sheets: 34
+Pages: 68
+
+Formula: П`SUP`2`LO` A-Q`SUP`8/4`LO` R`SUP`6`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet Q
+sheet_count 8
+missing None
+remain_start R
+remain_end None
+remain_n 6
+Sheets: 136
+Pages: 272
+
+Formula: *-5*`SUP`8`LO` A-I`SUP`8`LO` (lacks I8, blank?)
+cover_sheet 0
+pren 8
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet I
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 80
+Pages: 160
+
+Formula: A`SUP`8`LO`(«A1) B-Y`SUP`8`LO` Z`SUP`2`LO` [2A]1
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet Y
+sheet_count 8
+missing A1
+remain_start B
+remain_end Y
+remain_n 8
+Sheets: 192
+Pages: 384
+
+Formula: A-B`SUP`12`LO` C`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start C
+remain_end None
+remain_n 6
+Sheets: 30
+Pages: 60
+
+Formula: 3 volumes
+I do not recognise this formula!
+
+Formula: *`SUP`4`LO`(-*4) A-Q`SUP`12`LO` R`SUP`4`LO` (lacks R4, blank?)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet Q
+sheet_count 12
+missing None
+remain_start R
+remain_end None
+remain_n 4
+Sheets: 200
+Pages: 400
+
+Formula: A-I`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet I
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 108
+Pages: 216
+
+Formula: A-D`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 48
+Pages: 96
+
+Formula: A-D`SUP`12`LO` `SUP`2`LO`A-B`SUP`12`LO` (D10-12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 48
+Pages: 96
+
+Formula: A-F`SUP`12`LO` G`SUP`10`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start G
+remain_end None
+remain_n 10
+Sheets: 82
+Pages: 164
+
+Formula: A-L`SUP`6`LO` M`SUP`2`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet L
+sheet_count 6
+missing None
+remain_start M
+remain_end None
+remain_n 2
+Sheets: 68
+Pages: 136
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: Û1 a-f`SUP`12`LO` g`SUP`12`LO` (-g11,12) h-n`SUP`12`LO` o`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet a
+end_sheet_n 1
+end_sheet f
+sheet_count 12
+missing None
+remain_start g
+remain_end None
+remain_n 12
+Sheets: 84
+Pages: 168
+
+Formula: a`SUP`2`LO` b-e`SUP`12`LO` f`SUP`6`LO` (f6 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet a
+end_sheet_n 1
+end_sheet e
+sheet_count 2
+missing None
+remain_start b
+remain_end e
+remain_n 12
+Sheets: 22
+Pages: 44
+
+Formula: П1 A`SUP`4`LO` B-V`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet V
+sheet_count 4
+missing None
+remain_start B
+remain_end V
+remain_n 12
+Sheets: 96
+Pages: 192
+
+Formula: П1 A-V`SUP`12`LO` X`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet V
+sheet_count 12
+missing None
+remain_start X
+remain_end None
+remain_n 8
+Sheets: 260
+Pages: 520
+
+Formula: A-Q`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet Q
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 192
+Pages: 384
+
+Formula: *`SUP`12`LO`(-*12) A-E`SUP`12`LO` (E11,12 blank)
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: *`SUP`8`LO` A-T`SUP`12`LO` V`SUP`6`LO` X`SUP`4`LO`
+cover_sheet 0
+pren 8
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start V
+remain_end None
+remain_n 6
+Sheets: 242
+Pages: 484
+
+Formula: Û1 A-F`SUP`12`LO` G`SUP`10`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start G
+remain_end None
+remain_n 10
+Sheets: 82
+Pages: 164
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: A-E`SUP`12`LO` F`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing None
+remain_start F
+remain_end None
+remain_n 6
+Sheets: 66
+Pages: 132
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: A-K`SUP`6`LO` L`SUP`4`LO` (lacks L4, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 6
+missing None
+remain_start L
+remain_end None
+remain_n 4
+Sheets: 64
+Pages: 128
+
+Formula: A-K`SUP`12`LO` L`SUP`6`LO` (lacks L6, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 12
+missing None
+remain_start L
+remain_end None
+remain_n 6
+Sheets: 126
+Pages: 252
+
+Formula: *`SUP`6`LO`(-*6) A-M`SUP`12`LO` N-O`SUP`6`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet M
+sheet_count 12
+missing None
+remain_start N
+remain_end O
+remain_n 6
+Sheets: 156
+Pages: 312
+
+Formula: A-E`SUP`12`LO` F`SUP`10`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing None
+remain_start F
+remain_end None
+remain_n 10
+Sheets: 70
+Pages: 140
+
+Formula: П1 *`SUP`4`LO`(-*4) A-R`SUP`12`LO` S-T`SUP`8`LO`
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet R
+sheet_count 12
+missing None
+remain_start S
+remain_end T
+remain_n 8
+Sheets: 216
+Pages: 432
+
+Formula: П1 *`SUP`8`LO`(-*8) A-T`SUP`12`LO` V`SUP`4`LO`
+cover_sheet 0
+pren 8
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start V
+remain_end None
+remain_n 4
+Sheets: 240
+Pages: 480
+
+Formula: П`SUP`2`LO` *`SUP`4`LO`(-*1) A-R`SUP`12`LO` S`SUP`8`LO` (lacks S8, blank?)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet R
+sheet_count 12
+missing None
+remain_start S
+remain_end None
+remain_n 8
+Sheets: 216
+Pages: 432
+
+Formula: П1 A-S`SUP`12`LO` T`SUP`8`LO` (T8 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet S
+sheet_count 12
+missing None
+remain_start T
+remain_end None
+remain_n 8
+Sheets: 224
+Pages: 448
+
+Formula: П1 A-T`SUP`12`LO` V`SUP`2`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start V
+remain_end None
+remain_n 2
+Sheets: 230
+Pages: 460
+
+Formula: A-D`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 48
+Pages: 96
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: A-D`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 32
+Pages: 64
+
+Formula: *`SUP`2`LO` A-F`SUP`8`LO` G`SUP`2`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 8
+missing None
+remain_start G
+remain_end None
+remain_n 2
+Sheets: 52
+Pages: 104
+
+Formula: A-S`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet S
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 144
+Pages: 288
+
+Formula: A-D`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 16
+Pages: 32
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: 3 volumes
+I do not recognise this formula!
+
+Formula: A-G`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 84
+Pages: 168
+
+Formula: 3 volumes
+I do not recognise this formula!
+
+Formula: A-F`SUP`12`LO` (lacks F12, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: A-C`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 24
+Pages: 48
+
+Formula: Û`SUP`4`LO` [A]`SUP`4`LO` B-D`SUP`4`LO`
+cover_sheet 0
+pren 4
+pre None
+start_sheet B
+end_sheet_n 1
+end_sheet D
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 16
+Pages: 32
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: *`SUP`4`LO` A-R`SUP`12`LO` S`SUP`8`LO`
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet R
+sheet_count 12
+missing None
+remain_start S
+remain_end None
+remain_n 8
+Sheets: 216
+Pages: 432
+
+Formula: П1 A`SUP`12`LO`(-A12) B-Y`SUP`12`LO` Z`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet Y
+sheet_count 12
+missing A12
+remain_start B
+remain_end Y
+remain_n 12
+Sheets: 288
+Pages: 576
+
+Formula: A-H`SUP`12`LO` I`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 12
+missing None
+remain_start I
+remain_end None
+remain_n 6
+Sheets: 102
+Pages: 204
+
+Formula: П1 A-T`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 228
+Pages: 456
+
+Formula: П1 A-R`SUP`12`LO` S-T`SUP`6`LO` V`SUP`4`LO` (lacks V4, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet R
+sheet_count 12
+missing None
+remain_start S
+remain_end T
+remain_n 6
+Sheets: 210
+Pages: 420
+
+Formula: Û1 A-M`SUP`8/4`LO` N`SUP`8`LO` O1
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet M
+sheet_count 8
+missing None
+remain_start N
+remain_end None
+remain_n 8
+Sheets: 104
+Pages: 208
+
+Formula: Û1 A-K`SUP`8`LO` (K7-8 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 80
+Pages: 160
+
+Formula: П`SUP`2`LO` A-2L`SUP`6`LO` (lacks 2L6, blank?)
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet L
+sheet_count 6
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 356
+Pages: 712
+
+Formula: П`SUP`2`LO` A-O`SUP`12`LO` P`SUP`10`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet O
+sheet_count 12
+missing None
+remain_start P
+remain_end None
+remain_n 10
+Sheets: 180
+Pages: 360
+
+Formula: П1 *`SUP`4`LO`(-*4) A-S`SUP`12`LO` T`SUP`8`LO` (T8 blank)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet S
+sheet_count 12
+missing None
+remain_start T
+remain_end None
+remain_n 8
+Sheets: 228
+Pages: 456
+
+Formula: A-R`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet R
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 204
+Pages: 408
+
+Formula: П1 *`SUP`4`LO` A-R`SUP`12`LO` S`SUP`8`LO` (lacks S8, blank?)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet R
+sheet_count 12
+missing None
+remain_start S
+remain_end None
+remain_n 8
+Sheets: 216
+Pages: 432
+
+Formula: П1 *`SUP`4`LO`(-*4) A-S`SUP`12`LO` T`SUP`8`LO` (lacks T8, blank?)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet S
+sheet_count 12
+missing None
+remain_start T
+remain_end None
+remain_n 8
+Sheets: 228
+Pages: 456
+
+Formula: П1 *`SUP`6`LO`(-*6) A-S`SUP`12`LO` T`SUP`8`LO` V`SUP`6`LO` [X]`SUP`2`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet S
+sheet_count 12
+missing None
+remain_start T
+remain_end None
+remain_n 8
+Sheets: 230
+Pages: 460
+
+Formula: П1 *`SUP`4`LO` A-R`SUP`12`LO` S`SUP`8`LO` (lacks S8, blank?)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet R
+sheet_count 12
+missing None
+remain_start S
+remain_end None
+remain_n 8
+Sheets: 216
+Pages: 432
+
+Formula: П1 *`SUP`4`LO`(-*4) A-S`SUP`12`LO` T`SUP`8`LO` (lacks T8, blank?)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet S
+sheet_count 12
+missing None
+remain_start T
+remain_end None
+remain_n 8
+Sheets: 228
+Pages: 456
+
+Formula: П1 *`SUP`6`LO`(-*6) A-S`SUP`12`LO` T`SUP`10`LO` V`SUP`4`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet S
+sheet_count 12
+missing None
+remain_start T
+remain_end None
+remain_n 10
+Sheets: 232
+Pages: 464
+
+Formula: П1 *`SUP`4`LO`(-*4) A-R`SUP`12`LO` S-T`SUP`8`LO`
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet R
+sheet_count 12
+missing None
+remain_start S
+remain_end T
+remain_n 8
+Sheets: 216
+Pages: 432
+
+Formula: П1 *`SUP`8`LO`(-*8) A-T`SUP`12`LO` V`SUP`2`LO`
+cover_sheet 0
+pren 8
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start V
+remain_end None
+remain_n 2
+Sheets: 238
+Pages: 476
+
+Formula: П1 *`SUP`6`LO`(-*6) A-X`SUP`12`LO` Y`SUP`10`LO` Z`SUP`4`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet X
+sheet_count 12
+missing None
+remain_start Y
+remain_end None
+remain_n 10
+Sheets: 280
+Pages: 560
+
+Formula: A-C`SUP`12`LO` D`SUP`6`LO` (lacks D6, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 12
+missing None
+remain_start D
+remain_end None
+remain_n 6
+Sheets: 42
+Pages: 84
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: A-F`SUP`12`LO` (F12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: П1 A`SUP`6`LO` B-C`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 6
+missing None
+remain_start B
+remain_end C
+remain_n 4
+Sheets: 22
+Pages: 44
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: *`SUP`8`LO` 2*`SUP`2`LO` A-X`SUP`8`LO` Y`SUP`6`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet X
+sheet_count 8
+missing None
+remain_start Y
+remain_end None
+remain_n 6
+Sheets: 184
+Pages: 368
+
+Formula: П1 *`SUP`4`LO` A-R`SUP`12`LO` S`SUP`8`LO` (lacks S8, blank?)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet R
+sheet_count 12
+missing None
+remain_start S
+remain_end None
+remain_n 8
+Sheets: 216
+Pages: 432
+
+Formula: П1 *`SUP`4`LO`(-*4) A-S`SUP`12`LO` T`SUP`8`LO` (lacks T8, blank?)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet S
+sheet_count 12
+missing None
+remain_start T
+remain_end None
+remain_n 8
+Sheets: 228
+Pages: 456
+
+Formula: A-F`SUP`8/4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 48
+Pages: 96
+
+Formula: Û`SUP`4`LO` A-I`SUP`12`LO` K`SUP`8`LO`(lacks A1, blank?)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet I
+sheet_count 12
+missing None
+remain_start K
+remain_end None
+remain_n 8
+Sheets: 120
+Pages: 240
+
+Formula: *`SUP`6`LO` A-F`SUP`12`LO` G`SUP`6`LO` `SUP`2`LO`A`SUP`12`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start G
+remain_end None
+remain_n 6
+Sheets: 84
+Pages: 168
+
+Formula: A-B`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 24
+Pages: 48
+
+Formula: *`SUP`10`LO` A-F`SUP`12`LO`
+cover_sheet 0
+pren 10
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 82
+Pages: 164
+
+Formula: A-F`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: A`SUP`12`LO`(-A12) B-G`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing A12
+remain_start B
+remain_end G
+remain_n 12
+Sheets: 96
+Pages: 192
+
+Formula: П1 *`SUP`6`LO`(-*6) A-X`SUP`12`LO` Y`SUP`10`LO` Z`SUP`4`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet X
+sheet_count 12
+missing None
+remain_start Y
+remain_end None
+remain_n 10
+Sheets: 280
+Pages: 560
+
+Formula: A-O`SUP`6`LO` [P]1
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet O
+sheet_count 6
+missing None
+remain_start P
+remain_end None
+remain_n 1
+Sheets: 85
+Pages: 170
+
+Formula: 5 volumes
+I do not recognise this formula!
+
+Formula: A-D`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 16
+Pages: 32
+
+Formula: A-D`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 16
+Pages: 32
+
+Formula: A-D`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 16
+Pages: 32
+
+Formula: A-F`SUP`12`LO` G`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start G
+remain_end None
+remain_n 8
+Sheets: 80
+Pages: 160
+
+Formula: A-B`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 8
+Pages: 16
+
+Formula: A-E`SUP`8`LO` F`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 8
+missing None
+remain_start F
+remain_end None
+remain_n 4
+Sheets: 44
+Pages: 88
+
+Formula: A-D`SUP`8`LO` (lacks D8, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 32
+Pages: 64
+
+Formula: A-H`SUP`8`LO` (H8 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 64
+Pages: 128
+
+Formula: A`SUP`12`LO` B`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start B
+remain_end None
+remain_n 4
+Sheets: 28
+Pages: 56
+
+Formula: A-D`SUP`8`LO` E`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 8
+missing None
+remain_start E
+remain_end None
+remain_n 4
+Sheets: 36
+Pages: 72
+
+Formula: A-C`SUP`4`LO` (C4 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 12
+Pages: 24
+
+Formula: П`SUP`2`LO` A-H`SUP`8`LO` I`SUP`2`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 8
+missing None
+remain_start I
+remain_end None
+remain_n 2
+Sheets: 68
+Pages: 136
+
+Formula: A`SUP`4`LO` [B]2
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 4
+missing None
+remain_start B
+remain_end None
+remain_n 2
+Sheets: 10
+Pages: 20
+
+Formula: A-B`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 8
+Pages: 16
+
+Formula: A-B`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 8
+Pages: 16
+
+Formula: A-D`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 16
+Pages: 32
+
+Formula: A-C`SUP`12`LO` D`SUP`8`LO` (lacks D8, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 12
+missing None
+remain_start D
+remain_end None
+remain_n 8
+Sheets: 44
+Pages: 88
+
+Formula: A`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet A
+sheet_count 6
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 6
+Pages: 12
+
+Formula: [A]`SUP`2`LO` B-C`SUP`2`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet B
+end_sheet_n 1
+end_sheet C
+sheet_count 2
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 6
+Pages: 12
+
+Formula: *`SUP`4`LO` A-E`SUP`12`LO` (lacks E12, blank?)
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 64
+Pages: 128
+
+Formula: Û1 *`SUP`12`LO`(-*11,12) A-H`SUP`12`LO` (H12 blank)
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 108
+Pages: 216
+
+Formula: A-B`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 8
+Pages: 16
+
+Formula: A-N`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet N
+sheet_count 6
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 78
+Pages: 156
+
+Formula: A-H`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 96
+Pages: 192
+
+Formula: )o(`SUP`8`LO` A-2D`SUP`8`LO`
+cover_sheet 0
+pren 8
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet D
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 424
+Pages: 848
+
+Formula: A-C`SUP`12`LO` D`SUP`6`LO` (D6 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 12
+missing None
+remain_start D
+remain_end None
+remain_n 6
+Sheets: 42
+Pages: 84
+
+Formula: A-B`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 24
+Pages: 48
+
+Formula: Û`SUP`2`LO` A-D`SUP`12`LO` E`SUP`8`LO` E9.[10] (Û2 blank)
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start E
+remain_end None
+remain_n 8
+Sheets: 58
+Pages: 116
+
+Formula: A-C`SUP`12`LO` D`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 12
+missing None
+remain_start D
+remain_end None
+remain_n 6
+Sheets: 42
+Pages: 84
+
+Formula: *`SUP`12`LO` 2*`SUP`6`LO` A-2M`SUP`12`LO` (lacks 2M12, blank?)
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet M
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 726
+Pages: 1452
+
+Formula: *`SUP`6`LO` A-P`SUP`12`LO` Q`SUP`4`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet P
+sheet_count 12
+missing None
+remain_start Q
+remain_end None
+remain_n 4
+Sheets: 190
+Pages: 380
+
+Formula: Û`SUP`2`LO` A`SUP`12`LO` B`SUP`10`LO` `SUP`2`LO`A-C`SUP`12`LO` `SUP`2`LO`D`SUP`4`LO` `SUP`3`LO`A`SUP
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start B
+remain_end None
+remain_n 10
+Sheets: 36
+Pages: 72
+
+Formula: *`SUP`12`LO` A-M`SUP`12`LO` (M12 blank)
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet M
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 156
+Pages: 312
+
+Formula: A-D`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 16
+Pages: 32
+
+Formula: A`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet A
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 4
+Pages: 8
+
+Formula: A-F`SUP`12`LO` (F12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: A`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet A
+sheet_count 6
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 6
+Pages: 12
+
+Formula: A-M`SUP`12`LO` (M11,12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet M
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 144
+Pages: 288
+
+Formula: A`SUP`4`LO` B`SUP`2`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 4
+missing None
+remain_start B
+remain_end None
+remain_n 2
+Sheets: 10
+Pages: 20
+
+Formula: A-F`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: A-G`SUP`12`LO` H`SUP`10`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start H
+remain_end None
+remain_n 10
+Sheets: 94
+Pages: 188
+
+Formula: Û1 A`SUP`8`LO` B-D`SUP`12`LO` E`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 8
+missing None
+remain_start B
+remain_end D
+remain_n 12
+Sheets: 44
+Pages: 88
+
+Formula: A-P`SUP`12`LO` Q`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet P
+sheet_count 12
+missing None
+remain_start Q
+remain_end None
+remain_n 4
+Sheets: 184
+Pages: 368
+
+Formula: A`SUP`12`LO`(-A12) B-E`SUP`12`LO` F`SUP`8`LO` (F8 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing A12
+remain_start B
+remain_end E
+remain_n 12
+Sheets: 72
+Pages: 144
+
+Formula: A-B`SUP`12`LO` C`SUP`4`LO` (C4 bank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start C
+remain_end None
+remain_n 4
+Sheets: 28
+Pages: 56
+
+Formula: *`SUP`4`LO` A-F`SUP`12`LO`
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 76
+Pages: 152
+
+Formula: A-B`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 24
+Pages: 48
+
+Formula: Û1 A-F`SUP`12`LO`, 5 engraved folia
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: Û1 A-F`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: A`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet A
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 12
+Pages: 24
+
+Formula: a`SUP`4`LO` A-Q`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet a
+end_sheet_n 1
+end_sheet Q
+sheet_count 4
+missing None
+remain_start A
+remain_end Q
+remain_n 12
+Sheets: 76
+Pages: 152
+
+Formula: Û1 A`SUP`12`LO`(-A12) B-E`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing A12
+remain_start B
+remain_end E
+remain_n 12
+Sheets: 72
+Pages: 144
+
+Formula: *`SUP`4`LO` A-P`SUP`12`LO` Q`SUP`8`LO`, `SUP`2`LO`A`SUP`12`LO`
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet P
+sheet_count 12
+missing None
+remain_start Q
+remain_end None
+remain_n 8
+Sheets: 192
+Pages: 384
+
+Formula: A-C`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 6
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 18
+Pages: 36
+
+Formula: Û1 A-E`SUP`8`LO` F`SUP`4`LO` (lacks F4, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 8
+missing None
+remain_start F
+remain_end None
+remain_n 4
+Sheets: 44
+Pages: 88
+
+Formula: A-M`SUP`12`LO` N`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet M
+sheet_count 12
+missing None
+remain_start N
+remain_end None
+remain_n 6
+Sheets: 150
+Pages: 300
+
+Formula: A-D`SUP`12`LO` (lacks D12, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 48
+Pages: 96
+
+Formula: A-G`SUP`12`LO` H`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet G
+sheet_count 12
+missing None
+remain_start H
+remain_end None
+remain_n 4
+Sheets: 88
+Pages: 176
+
+Formula: A-T`SUP`12`LO` V`SUP`4`LO` (lacks V4, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start V
+remain_end None
+remain_n 4
+Sheets: 232
+Pages: 464
+
+Formula: A-N`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet N
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 156
+Pages: 312
+
+Formula: A-D`SUP`12`LO` E`SUP`10`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start E
+remain_end None
+remain_n 10
+Sheets: 58
+Pages: 116
+
+Formula: *`SUP`4`LO` A-N`SUP`12`LO` P`SUP`4`LO`
+cover_sheet 0
+pren 4
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet N
+sheet_count 12
+missing None
+remain_start P
+remain_end None
+remain_n 4
+Sheets: 164
+Pages: 328
+
+Formula: A`SUP`8`LO` B`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 8
+missing None
+remain_start B
+remain_end None
+remain_n 4
+Sheets: 20
+Pages: 40
+
+Formula: A-F`SUP`12`LO` G`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start G
+remain_end None
+remain_n 8
+Sheets: 80
+Pages: 160
+
+Formula: A-M`SUP`12`LO` (M12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet M
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 144
+Pages: 288
+
+Formula: *`SUP`6`LO`  A-N`SUP`12`LO` O`SUP`6`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet N
+sheet_count 12
+missing None
+remain_start O
+remain_end None
+remain_n 6
+Sheets: 168
+Pages: 336
+
+Formula: A-H`SUP`12`LO` (H11 blank; lacks H12, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 96
+Pages: 192
+
+Formula: A-S`SUP`12`LO` T`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet S
+sheet_count 12
+missing None
+remain_start T
+remain_end None
+remain_n 8
+Sheets: 224
+Pages: 448
+
+Formula: Û1 A-E`SUP`12`LO` F`SUP`10`LO`, `SUP`2`LO`A-F`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing None
+remain_start F
+remain_end None
+remain_n 10
+Sheets: 70
+Pages: 140
+
+Formula: A-F`SUP`12`LO` (F11,12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 72
+Pages: 144
+
+Formula: A-E`SUP`12`LO` F`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing None
+remain_start F
+remain_end None
+remain_n 8
+Sheets: 68
+Pages: 136
+
+Formula: A-B`SUP`8`LO` (B7,8 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 16
+Pages: 32
+
+Formula: A-L`SUP`12`LO` M`SUP`6`LO` N`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet L
+sheet_count 12
+missing None
+remain_start M
+remain_end None
+remain_n 6
+Sheets: 138
+Pages: 276
+
+Formula: [A]`SUP`4`LO`(-A4) B-E`SUP`12`LO` F`SUP`4`LO` (lacks F4, blank?)
+cover_sheet 0
+pren 4
+pre None
+start_sheet B
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing None
+remain_start F
+remain_end None
+remain_n 4
+Sheets: 56
+Pages: 112
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: Û1 A-C`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 36
+Pages: 72
+
+Formula: A-L`SUP`12`LO` (lacks L 11-12, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet L
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 132
+Pages: 264
+
+Formula: П1 )(/A`SUP`12`LO`(-A12) B-L`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet L
+sheet_count 12
+missing A12
+remain_start B
+remain_end L
+remain_n 12
+Sheets: 144
+Pages: 288
+
+Formula: A-H`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 32
+Pages: 64
+
+Formula: A`SUP`12`LO` B`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start B
+remain_end None
+remain_n 8
+Sheets: 32
+Pages: 64
+
+Formula: A-D`SUP`12`LO` (D12 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 48
+Pages: 96
+
+Formula: П1 A`SUP`12`LO`(-A12; A1+*1) B-C`SUP`12`LO` (lacks C12, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet A
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 12
+Pages: 24
+
+Formula: *`SUP`10`LO` A-Q`SUP`12`LO` R`SUP`4`LO` (R4 blank)
+cover_sheet 0
+pren 10
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet Q
+sheet_count 12
+missing None
+remain_start R
+remain_end None
+remain_n 4
+Sheets: 206
+Pages: 412
+
+Formula: Û1 A-C`SUP`12`LO` D`SUP`10`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet C
+sheet_count 12
+missing None
+remain_start D
+remain_end None
+remain_n 10
+Sheets: 46
+Pages: 92
+
+Formula: П1 A-L`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet L
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 132
+Pages: 264
+
+Formula: A-D`SUP`8/4`LO` E`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 8
+missing None
+remain_start E
+remain_end None
+remain_n 6
+Sheets: 38
+Pages: 76
+
+Formula: A`SUP`12`LO` B`SUP`6`LO` (lacks B6, blank?)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start B
+remain_end None
+remain_n 6
+Sheets: 30
+Pages: 60
+
+Formula: A-B`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 24
+Pages: 48
+
+Formula: П1 A-e`SUP`12`LO` F`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet e
+sheet_count 12
+missing None
+remain_start F
+remain_end None
+remain_n 6
+Sheets: 66
+Pages: 132
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: A-F`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 48
+Pages: 96
+
+Formula: A-K`SUP`12`LO` L`SUP`6`LO` (L6 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 12
+missing None
+remain_start L
+remain_end None
+remain_n 6
+Sheets: 126
+Pages: 252
+
+Formula: *`SUP`12`LO`(-*11,12) A-H`SUP`12`LO` (H12 blank)
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 108
+Pages: 216
+
+Formula: A-B`SUP`12`LO` C`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start C
+remain_end None
+remain_n 6
+Sheets: 30
+Pages: 60
+
+Formula: *`SUP`8`LO` A-K`SUP`8`LO`
+cover_sheet 0
+pren 8
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 88
+Pages: 176
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: *`SUP`6`LO` A-T`SUP`12`LO` V`SUP`2`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet T
+sheet_count 12
+missing None
+remain_start V
+remain_end None
+remain_n 2
+Sheets: 236
+Pages: 472
+
+Formula: A`SUP`12`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet A
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 12
+Pages: 24
+
+Formula: A-2F`SUP`12`LO` 2G`SUP`6`LO` (2G6 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 2
+end_sheet F
+sheet_count 12
+missing None
+remain_start 2G
+remain_end None
+remain_n 6
+Sheets: 654
+Pages: 1308
+
+Formula: П`SUP`2`LO` A-F`SUP`12`LO` G`SUP`8`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet F
+sheet_count 12
+missing None
+remain_start G
+remain_end None
+remain_n 8
+Sheets: 82
+Pages: 164
+
+Formula: *`SUP`12`LO` A-M`SUP`12`LO` (lacks M12, blank?)
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet M
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 156
+Pages: 312
+
+Formula: A-B`SUP`12`LO` C`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start C
+remain_end None
+remain_n 4
+Sheets: 28
+Pages: 56
+
+Formula: *`SUP`12`LO`(-*11,12) A-H`SUP`12`LO` (lacks H12, blank?)
+cover_sheet 0
+pren 12
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 12
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 108
+Pages: 216
+
+Formula: 2 volumes
+I do not recognise this formula!
+
+Formula: A-E`SUP`12`LO` F`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet E
+sheet_count 12
+missing None
+remain_start F
+remain_end None
+remain_n 6
+Sheets: 66
+Pages: 132
+
+Formula: A-K`SUP`12`LO` L`SUP`6`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 12
+missing None
+remain_start L
+remain_end None
+remain_n 6
+Sheets: 126
+Pages: 252
+
+Formula: *`SUP`8`LO` A-K`SUP`8`LO`
+cover_sheet 0
+pren 8
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 88
+Pages: 176
+
+Formula: Û1 A-K`SUP`8/4`LO` L`SUP`4`LO` (L4 blank)
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet K
+sheet_count 8
+missing None
+remain_start L
+remain_end None
+remain_n 4
+Sheets: 84
+Pages: 168
+
+Formula: A-H`SUP`8/4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 8
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 64
+Pages: 128
+
+Formula: Û1 A-H`SUP`6`LO` I`SUP`4`LO` `SUP`2`LO`A`SUP`2`LO` `SUP`2`LO`B-F`SUP`6`LO` `SUP`2`LO`G`SUP`2`LO` (`S
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet H
+sheet_count 6
+missing None
+remain_start I
+remain_end None
+remain_n 4
+Sheets: 52
+Pages: 104
+
+Formula: A-B`SUP`12`LO` C`SUP`8`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 12
+missing None
+remain_start C
+remain_end None
+remain_n 8
+Sheets: 32
+Pages: 64
+
+Formula: [A]`SUP`2`LO`
+I do not recognise this formula!
+
+Formula: *`SUP`6`LO` A-I`SUP`12`LO` K`SUP`6`LO`
+cover_sheet 0
+pren 6
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet I
+sheet_count 12
+missing None
+remain_start K
+remain_end None
+remain_n 6
+Sheets: 120
+Pages: 240
+
+Formula: *`SUP`2`LO` A-X`SUP`12`LO` Y`SUP`10`LO` Z`SUP`2`LO`
+cover_sheet 0
+pren 2
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet X
+sheet_count 12
+missing None
+remain_start Y
+remain_end None
+remain_n 10
+Sheets: 276
+Pages: 552
+
+Formula: A`SUP`4`LO` B`SUP`2`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet B
+sheet_count 4
+missing None
+remain_start B
+remain_end None
+remain_n 2
+Sheets: 10
+Pages: 20
+
+Formula: A-D`SUP`4`LO`
+cover_sheet 0
+pren 0
+pre None
+start_sheet A
+end_sheet_n 1
+end_sheet D
+sheet_count 4
+missing None
+remain_start None
+remain_end None
+remain_n 0
+Sheets: 16
+Pages: 32
+
+Stats
+-----
+Parsed formulas:  443
+Parsing errors:  0
+Bad formulas:  49
